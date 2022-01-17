@@ -1,0 +1,178 @@
+/*************************************************************
+	Simple Bubbles External CSS
+	Created by #559. Please do not steal.
+*************************************************************/
+
+/*************************************************************
+	Variables
+*************************************************************/
+:root {
+	--cWhite:				#ffffff;
+	--cBlack:				#000000;
+}
+
+/************************************************
+	Resets
+************************************************/
+body,
+#holder {
+	margin:							0;
+	display:						flex;
+	align-items:				center;
+	flex-direction:			column;
+	}
+#holder {
+	position:						relative;
+	width:							100%;
+	}
+#content {
+	background:					var(--cWhite);
+	padding:						10px 0px 0px;
+	margin-top:					35px;
+	margin-bottom:			35px;
+	width:							900px;
+	left:								0px;
+	border-radius:			20px;
+	}
+#contentholder {
+	width:							100%;
+	left:								0px;
+	}
+#contentholder > .titlebar:nth-child(odd) + div {
+	display:						flex;
+	justify-content:		center;
+	}
+body * {
+	border-color:				transparent !important;
+	}
+
+.button:hover,
+button_tall:hover {
+	border-color:				transparent !important;
+	}
+#bookmark, #bodyi, #topbanner, #topbanneri, #layoutuinfo, #gametime, #addbookmark, .sf-menu, #menu_holder,#titleimg, #bottombanner, #footer, .clearer, .spacer,
+.login_reward_title.ui-widget-header.ui-corner-all {
+	display:						none;
+	}
+#titletxt::before,
+#linkHolder #links #title::before,
+#linkHolder #notes #title::before {
+	padding-right:			5px;
+	}
+
+/* titles */
+.titlebar {
+	height:							35px;
+	width:							100%;
+	}
+#titletxt {
+	height:							35px;
+	width:							100%;
+	top:								0px;
+	left:								0px;
+	font-size:					24px;
+	line-height:				34px;
+	display:						flex;
+	justify-content:		center;
+}
+
+/* navigation */
+.navigation {
+	display:						flex;
+	justify-content:		space-evenly;
+	}
+.navigation a {
+	margin:							15px 4px 15px;
+	font-size:					22px;
+	padding:						12px;
+	border-radius:			20px;
+	font-weight:				normal !important;
+	}
+.navigation a:hover {
+	text-decoration:		none !important;
+}
+
+/* add small margins */
+#contentholder > .add_small_margins {
+	display:						flex;
+	justify-content:		center;
+	align-items:				center;
+	}
+#contentholder > .add_small_margins::after {
+	content:						"free layout by #559";
+}
+
+/* infobox */
+#cattery_infobox {
+	width:							20%;
+	display:						flex;
+	flex-direction:			column;
+	align-items:				center;
+	padding:						0px;
+	left:								0px;
+	}
+#cattery_infobox .add_small_margins {
+	left:								0px !important;
+	}
+
+/* descbox */
+#cattery_descbox {
+	width:							79%;
+	}
+#cattery_descbox a,
+#cattery_infobox a {
+	font-weight:				bold;
+	}
+#cattery_descbox a:hover {
+	text-decoration:		underline;
+}
+
+#cattery_infobox .ui-menu-item a:hover {
+	text-decoration:		none !important;
+}
+
+/* mweor tabs */
+.ui-state-default, 
+.ui-widget-content .ui-state-default,
+.ui-widget-header .ui-state-default {
+	background:					var(--cWhite);
+	}
+.breed_count {
+	color:							var(--headerColor);
+}
+.tab_paging {
+	width:							auto;
+}
+
+/* infobox */
+.tborder {
+	border-color:				transparent;
+	width:							100%;
+	margin-bottom:			20px;
+	}
+form .tborder .trow1 td {
+	color:							var(--cBlack);
+}
+
+/* message form */
+.popup {
+	margin:							auto !important;
+	left:								auto !important;
+	right:							auto !important;
+}
+
+/* event text */
+#contentholder > .spacer:nth-child(1) + div {
+	left:								0px !important;
+	display:						flex;
+	justify-content:		center;
+	margin-bottom:			10px;
+}
+
+/* cattery notice */
+.ci_notice,
+#notice {
+	border-color:				transparent;
+	display:						flex;
+	justify-content:		center;
+}
