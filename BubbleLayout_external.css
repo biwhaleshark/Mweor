@@ -7,48 +7,51 @@
 	Variables
 *************************************************************/
 :root {
-	--cWhite:				#ffffff;
-	--cBlack:				#000000;
+	--cWhite: #ffffff;
+	--cBlack: #000000;
 }
 
 /************************************************
 	Resets
 ************************************************/
+body {
+	background-image: var(--backgroundImage);
+}
 body,
 #holder {
-	margin:							0;
-	display:						flex;
-	align-items:				center;
-	flex-direction:			column;
+	margin: 0;
+	display: flex;
+	align-items: center;
+	flex-direction: column;
 	}
 #holder {
-	position:						relative;
-	width:							100%;
+	position: relative;
+	width: 100%;
 	}
 #content {
-	background:					var(--cWhite);
-	padding:						10px 0px 0px;
-	margin-top:					35px;
-	margin-bottom:			35px;
-	width:							900px;
-	left:								0px;
-	border-radius:			20px;
+	background: var(--cWhite);
+	padding: 10px 0px 0px;
+	margin-top: 35px;
+	margin-bottom: 35px;
+	width: 900px;
+	left: 0px;
+	border-radius: 20px;
 	}
 #contentholder {
-	width:							100%;
-	left:								0px;
+	width: 100%;
+	left: 0px;
 	}
 #contentholder > .titlebar:nth-child(odd) + div {
-	display:						flex;
-	justify-content:		center;
+	display: flex;
+	justify-content: center;
 	}
 body * {
-	border-color:				transparent !important;
+	border-color: transparent !important;
 	}
 
 .button:hover,
 button_tall:hover {
-	border-color:				transparent !important;
+	border-color: transparent !important;
 	}
 #bookmark, #bodyi, #topbanner, #topbanneri, #layoutuinfo, #gametime, #addbookmark, .sf-menu, #menu_holder,#titleimg, #bottombanner, #footer, .clearer, .spacer,
 .login_reward_title.ui-widget-header.ui-corner-all {
