@@ -111,6 +111,7 @@ button_tall:hover {
 	}
 #contentholder > .add_small_margins::after {
 	content: "free layout by #559";
+	color: var(--headerColor);
 }
 
 /* infobox */
