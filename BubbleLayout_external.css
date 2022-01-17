@@ -97,6 +97,8 @@ button_tall:hover {
 	padding: 12px;
 	border-radius: 20px;
 	font-weight: normal !important;
+	width: 70px;
+	text-align: center;
 	}
 .navigation a:hover {
 	background: var(--highlightColor);
