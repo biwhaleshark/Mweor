@@ -250,6 +250,9 @@ body .ui-tooltip {
 .ui-widget-content {
     border: 0px solid transparent;
 }
+.page_number {
+  color: var(--txtDefault) !important;
+}
 
 /**********************************************
 	Mweor Profiles
