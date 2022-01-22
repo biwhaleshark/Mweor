@@ -408,7 +408,7 @@ body .ui-tooltip {
 	Misc
 **********************************************/
 .fa {
-    font-family: initial !important;
+    font-family: FontAwesome !important;
 }
 .ui-button-text-only .ui-button-text {
     color: var(--txtDefault);
