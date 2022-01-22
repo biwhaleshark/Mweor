@@ -303,6 +303,14 @@ body .ui-tooltip {
 .itemholder center .tborder {
     width: auto;
 }
+#mweor_top_right_holder {
+    top: 30px;
+    position: relative;
+}
+#mweor_large_name {
+    padding-top: 30px;
+}
+
 /**********************************************
 	Inventory
 **********************************************/
