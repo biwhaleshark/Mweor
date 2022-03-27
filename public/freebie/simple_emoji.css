@@ -1,0 +1,218 @@
+/*************************************************************
+	Simple Emoji Layout
+	Created by #559
+
+	Layout topic: /viewtopic.php?id=776748
+*************************************************************/
+
+/************************************************
+	Resets
+************************************************/
+html * {
+	font-family:			var(--font) !important;
+	}
+body {
+	background:			var(--backgroundColor);
+	background-image:		var(--backgroundImage);
+	background-size:		var(--backgroundSize);
+	background-repeat:		var(--backgroundRepeat);
+	}
+body,
+#holder {
+	margin:				0;
+	display:				flex;
+	align-items:			center;
+	flex-direction:			column;
+	}
+#holder {
+	position:				relative;
+	width:				100%;
+	}
+#content {
+	background:			var(--cWhite);
+	padding:				10px 0px 0px;
+	margin-top:			35px;
+	margin-bottom:		35px;
+	width:				900px;
+	left:					0px;
+	border-radius:			20px;
+	}
+#contentholder {
+	width:				100%;
+	left:					0px;
+	}
+#contentholder > .titlebar:nth-child(odd) + div {
+	display:				flex;
+	justify-content:			center;
+	}
+body * {
+	border-color:			transparent !important;
+	}
+.button,
+.button_tall {
+	color:				var(--buttonColor) !important;
+	background:			var(--backgroundColor) !important;
+	}
+.button:hover,
+button_tall:hover {
+	color:				var(--buttonColor) !important;
+	background:			var(--highlightColor) !important;
+	border-color:			transparent !important;
+	}
+.ui-dialog .ui-dialog-title {
+	color:				var(--buttonColor);
+	}
+#bookmark, #bodyi, #topbanner, #topbanneri, #layoutuinfo, #gametime, #addbookmark, .sf-menu, #menu_holder,#titleimg, #bottombanner, #footer, .clearer, .spacer,
+.login_reward_title.ui-widget-header.ui-corner-all {
+	display:				none;
+	}
+#titletxt::before,
+#linkHolder #links #title::before,
+#linkHolder #notes #title::before {
+	content:				var(--emoji);
+	padding-right:			5px;
+	}
+
+/* titles */
+.titlebar {
+	height:				35px;
+	width:				100%;
+	}
+#titletxt {
+	height:				35px;
+	width:				100%;
+	top:					0px;
+	left:					0px;
+	font-size:				24px;
+	line-height:			34px;
+	display:				flex;
+	justify-content:			center;
+	color:				var(--headerColor);
+}
+
+/* navigation */
+.navigation {
+	display:				flex;
+	justify-content:			space-evenly;
+	}
+.navigation a {
+	background:			var(--backgroundColor);
+	color:				var(--buttonColor) !important;
+	margin:				15px 4px 15px;
+	font-size:				22px;
+	padding:				12px;
+	border-radius:			20px;
+	font-weight:			normal !important;
+	}
+.navigation a:hover {
+	background:			var(--highlightColor);
+	text-decoration:		none !important;
+}
+
+/* add small margins */
+#contentholder > .add_small_margins {
+	display:				flex;
+	justify-content:			center;
+	align-items:			center;
+	}
+#contentholder > .add_small_margins::after {
+	content:				"free layout by #559";
+}
+
+/* infobox */
+#cattery_infobox {
+	width:				20%;
+	display:				flex;
+	flex-direction:			column;
+	align-items:			center;
+	padding:				0px;
+	left:					0px;
+	}
+#cattery_infobox .add_small_margins {
+	left:					0px !important;
+	}
+#cattery_infobox .add_small_margins img {
+	border-radius:			var(--pfpRadius);
+}
+
+/* descbox */
+#cattery_descbox {
+	width:				79%;
+	}
+#cattery_descbox a,
+#cattery_infobox a {
+	color:				var(--headerColor);
+	font-weight:			bold;
+	}
+#cattery_descbox a:hover {
+	text-decoration:		underline;
+}
+
+#cattery_infobox .ui-menu-item a:hover {
+	text-decoration:		none !important;
+	color:				var(--buttonColor);
+	background:			var(--highlightColor);
+}
+
+/* mweor tabs */
+.ui-widget-header {
+	background:			var(--backgroundColor) !important;
+	}
+.ui-state-default, 
+.ui-widget-content .ui-state-default,
+.ui-widget-header .ui-state-default {
+	background:			var(--cWhite);
+	}
+.breed_count {
+	color: 				var(--headerColor);
+}
+.tab_paging {
+	width: 				auto;
+}
+
+/* infobox */
+.tborder {
+	border-color:			transparent;
+	width:				100%;
+	margin-bottom:		20px;
+	}
+.theader {
+	background:			var(--backgroundColor) !important;
+	color:				var(--buttonColor);
+	}
+form .tborder .trow1 td {
+	color:				var(--cBlack);
+}
+
+/* message form */
+.popup {
+	margin:				auto !important;
+	left:					auto !important;
+	right:				auto !important;
+	background:			var(--backgroundColor);
+	}
+.popup_title,
+#popupclose {
+	color:				var(--buttonColor);
+	}
+.popup_content .trow2 td {
+	background:			var(--highlightColor) !important;
+}
+
+/* event text */
+#contentholder > .spacer:nth-child(1) + div {
+	left:					0px !important;
+	display:				flex;
+	justify-content:			center;
+	margin-bottom:		10px;
+}
+
+/* cattery notice */
+.ci_notice,
+#notice {
+	background:			var(--highlightColor) !important;
+	color:				var(--buttonColor);
+	border-color:			transparent;
+	display:				flex;
+	justify-content:			center;
+}
