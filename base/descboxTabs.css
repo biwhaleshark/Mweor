@@ -1,221 +1,65 @@
-/*************************************************************
-	Free Layout - Stationary
-	created by #559
-************************************************************/
-
 /************************************************
-	settings
+	Cattery Description Tab Styles
+	coded by #559
 ************************************************/
-
-/** Imported Styles ***********/
-@import url("https://biwhaleshark.github.io/Mweor/base/descboxTabs.css");
-
-/** Variables *****************/
-:root {
-    --white: #ffffff;
-    --black: #000000;
-}
-
-/************************************************
-	Resets
-************************************************/
-
-topbanner, #bottombanner, #footer, .sf-menu, #titlebar, #bodyi, .titlebar, #titleimg, .titlebar, #topbanner, #bottombanner img, #menu_holder, .breed_count, div#cattery_descbox i {
-	display:none;
-}
-
-body {
-	background: var(--bgImage);
-	background-color: var(--bgColor);
-	background-attachment: fixed;
-}
-
-/* Headings */
-
-h1.tired {
-	color: #618e7d;
-}
-
-h1.tired a {
-	color: #8bb0a2;
-	text-decoration: none;
-}
-
-center h2 a {
-	color: #618e7d;
-	padding-right: 5px;
-	padding-left: 5px;
-	padding-bottom: 10px;
-}
-
-center h2 a:hover {
-	color: #8bb0a2;
-}
-
-center h2.border {
-	border-bottom: 10px double #93A096;
-}
-
-center h3 a {
-	color: #618e7d;
-	padding-right: 8px;
-	padding-left: 8px;
-}
-center h3 a:hover {
-	color: #8bb0a2;
-}
-
-/* Content */
-
-#content {
-	background: transparent;
-	width: 100%;
-	margin: 0px;
-	padding: 0px;
-}
-
-div#content {
-	background-color: transparent;
-	margin-top: 0px;
-	margin-bottom: 80px;
-	margin-left: 0px;
-}
-
-#contentholder {
-	background-color: #f0f0da;
-	color: #304533;
-	position: relative;
-	width: 770px;
-	margin: 50px 5px 5px 5px;
-	border: 10px double #93A096;
-	box-shadow:
-	15px 0px 15px rgba(0, 0, 0, 0.4),
-	-15px 0px 15px rgba(0, 0, 0, 0.4);
-}
-
-div#contentholder {
-	padding: 20px 20px 20px 20px;
-	margin-right: 20%;
-	margin-left: 26%;
-}
-
-/* Cattery Description */
 
 #cattery_descbox {
-	background-color: transparent;
+	overflow: visible;
+}
+
+.tabHolder {
 	position: relative;
 	float: left;
-	height: 400px;
-	width: 420px;
-	text-align: justify;
-	overflow: hidden;
+	height: 100%;
 }
 
-/* Cattery Infobox */
-
-#cattery_infobox {
-	background: url("http://colourlovers.com.s3.amazonaws.com/images/patterns/4717/4717199.png");
-	color: #000000;
+.tabBox {
 	position: relative;
-	clear: right;
-	float: right;
-	height: 250px;
-	width: 250px;
-        overflow: hidden;
-	padding: 35px;
-	border: 5px solid transparent;
-	border-radius: 200px 200px 200px 200px;
-}
-
-.text_medium {
-	padding: 5px;
-}
-
-div.add_small_margins {
-	display: none;
-}
-
-ul#cattery_menu.ui-menu.ui-widget.ui-widget-content.ui-corner-all {
-	background-color: #e6e6cd;
-	padding-right: 0px;
-	padding-left: 0px;
-}
-
-li.ui-menu-item {
-	background-color: #fafae8;
+	clear: both;
+	margin: 0px 0px;
+	height: 100%;
+	width: 100% !important;
 	text-align: center;
 }
 
-li.ui-menu-item a {
-	color: #18353D;
-	font-weight: 900;
+.tabSingle {
+	padding: 0 10px;
 }
 
-li.ui-menu-item a:hover {
-	background-color: transparent;
-	color: #B9BDB5;
-	border: 0px solid transparent;
+.tabBox .tabSingle {
+	float: left;
 }
 
-.ui-menu .ui-menu-item a.ui-state-focus {
-	background: transparent;
+.tabBox .tabSingle label {
+	position: relative;
+	padding: 10px;
+	font-weight: bold;
 }
 
-/* Mweor Tabs*/
-
-div#tab_0,ui-tabs-panel.ui-widget-content.ui-corner-bottom, div#tab_1,ui-tabs-panel.ui-widget-content.ui-corner-bottom, div#tab_2,ui-tabs-panel.ui-widget-content.ui-corner-bottom, div#tab_3,ui-tabs-panel.ui-widget-content.ui-corner-bottom, div#tab_4,ui-tabs-panel.ui-widget-content.ui-corner-bottom, div#tab_5,ui-tabs-panel.ui-widget-content.ui-corner-bottom {
-	background-color: #e6e6cd;
-	color: #27242B; 
+.tabBox .content {
+	position: absolute;
+	padding: 15px;
+	top: 30px;
+	bottom: 0px;
+	right: 0px;
+	left: 0px;
+	height: 100px;
+	width: auto;
+	overflow: auto;
+	background-color: #fff;
+	border: 1px solid #000;
 }
 
-.ui-state-hover, .ui-widget-content .ui-state-hover, .ui-widget-header .ui-state-hover, .ui-state-focus, .ui-widget-content .ui-state-focus, .ui-widget-header .ui-state-focus {
-background: url(http://i.imgur.com/4Vgnckl.png) !important;
-border: 1px solid transparent;
+.tabBox [type=radio]:checked~label {
+	z-index: 2;
+	background: #fff;
+	color: #000;
 }
 
-
-.ui-state-active, .ui-widget-content .ui-state-active, .ui-widget-header .ui-state-active {
-background: url(http://i.imgur.com/4Vgnckl.png) !important;
-border: 1px solid #ransparent;
+.tabBox [type=radio]:checked~label~.content {
+	z-index: 1;
 }
 
-li.ui-state-defualt-ui-corner-top.ui-tabs-active.ui-state-active {
-color:  #ffe5e7;
-}
-
-li.ui-state-default.ui-corner-top.ui-tabs-active.ui-state-active.ui-state-hover.ui-state-focus:hover {
-	background-color: transparent;
-}
-
-.highlight_me {
-        background: transparent !important;
-}
-
-.mweorbox a{
-	color: #faeee3;
-}
-
-.mweorbox a:hover {
-	color: #3A505B;
-        background-color: transparent;
-}
-
-div.text_medium.add_small_margins { 
-        display: initial !important;
-}
-
-div.text_medium.add_small_margins a {
-	color: #18353D;
-}
-
-ul.ui-tabs-nav.ui-helper-reset.ui-helper-clearfix.ui-widget-header.ui-corner-all {
-	background: url("http://colourlovers.com.s3.amazonaws.com/images/patterns/4717/4717199.png");
-}
-
-.ui-state-active, .ui-widget-content .ui-state-active, .ui-widget-header .ui-state-active {
-    background-color: #e6e6cd!important;
-}
-
-.ui-state-default, .ui-widget-content .ui-state-default, .ui-widget-header .ui-state-default {
-    background: #e6e6cd;
+.tabSingle input[type="radio"] {
+	display: none;
 }
