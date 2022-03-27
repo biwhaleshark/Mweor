@@ -35,7 +35,7 @@ body,
 	width:				100%;
 	}
 #content {
-	background:			var(--cWhite);
+	background:			var(--white);
 	padding:				10px 0px 0px;
 	margin-top:			35px;
 	margin-bottom:		35px;
@@ -187,7 +187,7 @@ button_tall:hover {
 	color:				var(--buttonColor);
 	}
 form .tborder .trow1 td {
-	color:				var(--cBlack);
+	color:				var(--black);
 }
 
 /* message form */
