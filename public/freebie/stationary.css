@@ -2,6 +2,23 @@
 	Free Layout - Stationary
 	created by #559
 ************************************************************/
+
+/************************************************
+	settings
+************************************************/
+
+/** Imported Styles ***********/
+@import url("https://biwhaleshark.github.io/Mweor/base/descboxTabs.css");
+
+/** Variables *****************/
+:root {
+    --white: #ffffff;
+    --black: #000000;
+}
+
+/************************************************
+	Resets
+************************************************/
 topbanner, #bottombanner, #footer, .sf-menu, #titlebar, #bodyi, .titlebar, #titleimg, .titlebar, #topbanner, #bottombanner img, #menu_holder, .breed_count, div#cattery_descbox i {
 	display:none;
 }
