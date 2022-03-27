@@ -1,0 +1,92 @@
+/************************************************
+	guide to guides stylesheet by #559
+	for use on viewtopic.php?id=773364 only
+*************************************************
+
+*************************************************
+    Settings
+************************************************/
+/** Font Imports **************/
+
+/** Variables *****************/
+:root {
+    --white: #ffffff;
+    --black: #000000;
+
+    --fontColor: var(--black);
+    --font-family-1: Georgia, serif;
+    --font-family-2: null;
+}
+
+html {
+    scroll-behavior: smooth !important;
+}
+
+.tborder .trow3 br {
+  display: none;
+}
+
+.title {
+    font-family: var(--font-family-1);
+    color: var(--fontColor);
+    font-weight: bold;
+    margin: 0 40px;
+}
+
+.prime-title,
+.sec-title {
+    text-align: right;
+    position: relative;
+}
+
+.prime-title {
+    --font: 40px;
+    font-size: var(--font);
+    line-height: var(--font);
+}
+
+.section-title {
+    --font: 22px;
+    font-size: var(--font);
+    line-height: var(--font);
+}
+
+.paragraph {
+	margin: 0 40px 20px 40px;
+}
+
+.bold {
+	font-weight: bold;
+}
+
+.center {
+	text-align: center;
+	margin: 20px 0;
+}
+
+.link-list {
+  margin: 10px 60px;
+  padding: 0;
+}
+
+.chapter-index {
+    font-weight: bold;
+    padding-left: 25px;
+}
+
+li {
+    padding: 2px 0;
+}
+
+#index {
+    background: var(--white); 
+    height: auto; 
+    width: 200px; 
+    left: 870px; 
+    top: 130px; 
+    position: fixed; 
+    padding: 15px; 
+    border: 3.5px solid var(--black); 
+    border-radius: 10px; 
+    font-size: 14px;
+}
