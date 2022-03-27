@@ -1,0 +1,286 @@
+/************************************************
+	Pharoah Layout
+	Created by #559
+	Last Updated: 00/00/0000
+************************************************/
+
+/************************************************
+    Settings
+************************************************/
+
+/** Font Imports **************/
+@import url('https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap');
+
+/** Variables *****************/
+:root {
+    --cWhite:         #ffffff;
+    --cGrey:          #808080;
+    --cBlack:         #000000;
+
+    --bgColor:          #282749;
+    --bgImage:          url("");
+    --bgGradient:       linear-gradient(white, white 0.1%);
+
+    --font:             'Shadows Into Light', cursive;
+    --border:           2px solid var(--cBlack);
+    cursor:             auto;
+}
+
+/************************************************
+	Resets
+************************************************/
+.ci_notice, #bookmark, #bodyi, #topbanneri, #layoutuinfo, #gametime, #addbookmark, .sf-menu, #menu_holder, .titlebar,#titleimg, #titletxt, #bottombanner, #footer, .clearer, #bodyi, #cattery_infobox .plain_table, #cattery_infobox #cattery_menu, .spacer {
+    display:			none;
+}
+
+body {
+    background: var(--bgColor);
+}
+
+body, #holder {
+    margin:             0;
+    display:            flex;
+    align-items:        center;
+    flex-direction:     column;
+    }
+#holder {
+    position:           relative;
+    width:              100%;
+    }
+#content {
+    background:         transparent;
+    padding:            10px 0px 0px;
+    margin-bottom:      35px;
+    width:              100%;
+    left:               0px;
+    }
+#contentholder {
+    width:              100%;
+    left:               0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    top: -180px;
+}
+#topbanner {
+    background: url("https://cdn.discordapp.com/attachments/801251379217039400/934540751919005716/boat.png");
+    background-size: cover;
+    width: 100%;
+    height: 400px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#contentholder > .add_small_margins { order: 1; 
+    z-index: 1;
+}
+#cattery_descbox { order: 2; }
+#contentholder > div:nth-of-type(8),
+#contentholder > div:nth-of-type(10) { order: 3; }
+#contentholder > form:nth-of-type(1) { order: 4; }
+.space_below { order: 5; }
+p.describe { order: 6;}
+#contentholder > form:nth-of-type(2) { order: 7; }
+#contentholder > form:nth-of-type(3) { order: 7; }
+
+#cattery_infobox .add_small_margins, .ui-widget-content, .ui-widget-header, .ui-state-active, .ui-widget-content .ui-state-active, .ui-widget-header .ui-state-active, .mweorbox table tbody tr td div {
+    border-color:       transparent !important;
+}
+
+#cattery_infobox {
+    background: var(--bgColor);
+margin-bottom: 30px;
+    left: 0px;
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    overflow: visible;
+    display:flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+
+}
+#cattery_infobox .centered {
+    color: var(--cWhite);
+    font-family: var(--font);
+}
+#cattery_infobox .text_medium,
+#cattery_infobox .text_small {
+    font-size: 35px;
+    line-height: 30px;
+}
+#cattery_infobox .add_small_margins {
+    left: 0px !important;
+    width: auto !important;
+    height: auto !important;
+    margin-top: 35px;
+}
+#cattery_infobox .add_small_margins img {
+    border-radius: 50%;
+    width: 180px;
+    height: 180px;
+    box-shadow: 0px 0px 5px #0c0f17;
+}
+
+#contentholder > .spacer:nth-child(1) + div {
+display: none;
+}
+
+#cattery_descbox {
+    overflow: visible;
+    width: 100%;
+    background: transparent;
+    padding: 0px;
+    right: 0px;
+    height: 250px;
+}
+.navigation {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+top: -65px;
+position: relative;
+    font-size: 3vw;
+    line-height: 3vw;
+}
+.navigation ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+.navigation ul li {
+    display: inline-block;
+    padding-left: 10px;
+}
+.nav1 a, .nav2 a {
+    color: #09052a;
+    font-family: var(--font);
+    width: 8vw;
+    padding: 10px;
+    box-shadow: 1px 1px 8px #0c0f17;
+    display: inline-block;
+    text-align: center;
+}
+
+.nav1 li:nth-child(3) a,
+.nav2 li:nth-child(1) a,
+#tab1 {
+    background: #d0a494;
+    border: 5px outset #997480;
+}
+.nav1 li:nth-child(2) a,
+.nav2 li:nth-child(2) a,
+#tab2 {
+    background: #997480;
+    border: 5px outset #79647f;
+}
+.nav1 li:nth-child(1) a,
+.nav2 li:nth-child(3) a,
+#tab3 {
+    background: #79647f;
+    border: 5px outset #4c485b;
+}
+
+#descHolder {
+    width: 50%;
+    margin: auto;
+    height: 400px;
+top: -40px;
+position: relative;
+z-index: 1;
+}
+
+/* Tab controls */
+.tabHolder {
+	position:			relative;
+	float:			left;
+	background:		var(--cWhite);
+	height:			100%;
+	}
+.tabBox {
+	position:			relative;  
+	clear:			both;
+	margin:			0px 0px;
+	height:			100%;
+	width:			100% !important;
+	text-align:		center;
+    display: flex;
+justify-content: center;
+	}
+.tabSingle {
+	padding:			0 10px;
+	}
+.tabBox .tabSingle {
+	float:			left; 
+	}
+.tabBox .tabSingle label {
+	position:			relative;
+	padding:			10px 2px 10px 2px;
+	color:			var(--headerTxt);
+	background:		var(--cWhite);
+	font-weight:		bold;
+	font-size:			26px;
+    top: 354px;
+    width: 150px;
+display: inline-block;
+font-family: var(--font);
+	}
+.tabBox .content {
+	position:			absolute;
+	padding:			15px;
+	top:				0px;
+	bottom:			0px;
+	right:			0px;
+	left:				0px;
+	height:			300px;
+	width:			auto;
+	overflow:			auto;
+	background-color:	var(--cWhite);
+    border: 8px outset #d0a494;
+    text-align: center;
+	}
+.tabBox [type=radio]:checked ~ label {
+	z-index:			2;
+	background:		var(--cWhite);
+	color:			var(--bgColor);
+	}
+.tabBox [type=radio]:checked ~ label ~ .content {
+	z-index:			1;
+}
+.tabSingle input[type="radio"] {
+    display: none;
+}
+
+#linkHolder {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    top: -440px;
+}
+#links, #notes {
+    background-color: white;
+margin: 0px 20px 0px 20px;
+padding: 10px;
+width: 230px;
+height: 350px;
+border: 8px outset #997480;
+}
+#title {
+    font-size:			30px;
+    font-weight:			bold;
+    line-height:			22px;
+    font-family:var(--font);
+	}
+
+#contentholder > form:nth-of-type(1) {
+    width: 100%;
+}
+i {
+    display: none;
+}
+
+.space_below .item_box {
+    color: white;
+}
