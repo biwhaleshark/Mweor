@@ -1,0 +1,65 @@
+/************************************************
+	Cattery Description Tab Styles
+	coded by #559
+************************************************/
+
+#cattery_descbox {
+	overflow: visible;
+}
+
+.tabHolder {
+	position: relative;
+	float: left;
+	height: 100%;
+}
+
+.tabBox {
+	position: relative;
+	clear: both;
+	margin: 0px 0px;
+	height: 100%;
+	width: 100% !important;
+	text-align: center;
+}
+
+.tabSingle {
+	padding: 0 10px;
+}
+
+.tabBox .tabSingle {
+	float: left;
+}
+
+.tabBox .tabSingle label {
+	position: relative;
+	padding: 10px;
+	font-weight: bold;
+}
+
+.tabBox .content {
+	position: absolute;
+	padding: 15px;
+	top: 30px;
+	bottom: 0px;
+	right: 0px;
+	left: 0px;
+	height: 100px;
+	width: auto;
+	overflow: auto;
+	background-color: #fff;
+	border: 1px solid #000;
+}
+
+.tabBox [type=radio]:checked~label {
+	z-index: 2;
+	background: #fff;
+	color: #000;
+}
+
+.tabBox [type=radio]:checked~label~.content {
+	z-index: 1;
+}
+
+.tabSingle input[type="radio"] {
+	display: none;
+}
