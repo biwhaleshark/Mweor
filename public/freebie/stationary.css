@@ -21,11 +21,6 @@
 	Resets
 ************************************************/
 
-html, body, #holder {
-	height: 100%;
-	width: 100%;
-}
-
 topbanner, #bottombanner, #footer, .sf-menu, #titlebar, #bodyi, .titlebar, #titleimg, .titlebar, #topbanner, #bottombanner img, #menu_holder, .breed_count, div#cattery_descbox i {
 	display:none;
 }
