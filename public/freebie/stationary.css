@@ -99,6 +99,7 @@ center h3 a:hover {
 	background-color: #f0f0da;
 	color: #304533;
 	position: relative;
+	padding: 20px;
 	border: 10px double #93A096;
 	box-shadow:
 	15px 0px 15px rgba(0, 0, 0, 0.4),
