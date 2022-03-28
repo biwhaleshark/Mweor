@@ -53,6 +53,8 @@ body {
 
 #contentholder {
 	margin: 35px 0;
+	width: 100%;
+	left: 0;
 }
 	
 /* Headings */
