@@ -21,7 +21,7 @@
 	Resets
 ************************************************/
 
-html, body, .holder {
+html, body, #holder {
 	height: 100%;
 	width: 100%;
 }
