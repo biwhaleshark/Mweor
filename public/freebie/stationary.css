@@ -49,9 +49,8 @@ body {
 #content {
 	width: 730px;
 	left: 0;
-	display: flex;
-	justify-content: center;
 }
+
 #contentholder {
 	margin: 35px 0;
 }
