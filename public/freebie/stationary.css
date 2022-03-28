@@ -24,7 +24,7 @@ topbanner, #bottombanner, #footer, .sf-menu, #titlebar, #bodyi, .titlebar, #titl
 	display:none;
 }
 
-html, body, #holder {
+html, body, #holder, #content {
 	height: 100%;
 	width: 100%;
 	padding: 0;
@@ -77,15 +77,8 @@ center h3 a:hover {
 #content {
 	background: transparent;
 	width: 100%;
-	margin: 0px;
-	padding: 0px;
-}
-
-div#content {
-	background-color: transparent;
-	margin-top: 0px;
-	margin-bottom: 80px;
-	margin-left: 0px;
+	margin: 0;
+	padding: 0;
 }
 
 #contentholder {
