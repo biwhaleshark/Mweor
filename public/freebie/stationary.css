@@ -102,18 +102,10 @@ center h3 a:hover {
 	background-color: #f0f0da;
 	color: #304533;
 	position: relative;
-	width: 770px;
-	margin: 50px 5px 5px 5px;
 	border: 10px double #93A096;
 	box-shadow:
 	15px 0px 15px rgba(0, 0, 0, 0.4),
 	-15px 0px 15px rgba(0, 0, 0, 0.4);
-}
-
-div#contentholder {
-	padding: 20px 20px 20px 20px;
-	margin-right: 20%;
-	margin-left: 26%;
 }
 
 /* Cattery Description */
