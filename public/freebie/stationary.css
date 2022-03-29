@@ -37,6 +37,7 @@ html, body, #holder {
 
 body {
 	background: var(--bgImage);
+	background: var(--bgGradient);
 	background-color: var(--bgColor);
 	background-attachment: fixed;
 }
@@ -106,9 +107,7 @@ center h3 a:hover {
 	position: relative;
 	padding: 20px;
 	border: 10px double #93A096;
-	box-shadow:
-	15px 0px 15px rgba(0, 0, 0, 0.4),
-	-15px 0px 15px rgba(0, 0, 0, 0.4);
+	box-shadow: var(--boxShadow);
 }
 
 /* Cattery Description */
