@@ -26,7 +26,7 @@
 }
 
 topbanner, #bottombanner, #footer, .sf-menu, #titlebar, #bodyi, .titlebar, #titleimg, .titlebar, #topbanner, #bottombanner img, #menu_holder, .breed_count, div#cattery_descbox i {
-	display:none;
+	display: none;
 }
 
 html, body, #holder {
@@ -103,11 +103,11 @@ center h3 a:hover {
 }
 
 #contentholder {
-	background-color: #f0f0da;
-	color: #304533;
+	background-color: var(--boxBG);
+	color: var(--txtClr);
 	position: relative;
 	padding: 20px;
-	border: 10px double #93A096;
+	outline: 15px double var(--boxBorder);
 	box-shadow: var(--shadow);
 }
 
