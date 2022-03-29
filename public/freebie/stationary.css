@@ -14,6 +14,7 @@
 :root {
     --white: #ffffff;
     --black: #000000;
+    --shadow: 15px 0px 15px var(--boxShadow), -15px 0px 15px var(--boxShadow);
 }
 
 /************************************************
@@ -107,7 +108,7 @@ center h3 a:hover {
 	position: relative;
 	padding: 20px;
 	border: 10px double #93A096;
-	box-shadow: var(--boxShadow);
+	box-shadow: var(--shadow);
 }
 
 /* Cattery Description */
