@@ -61,7 +61,7 @@
  left: -1%;
  padding: 5%;
  box-sizing: border-box;
- background-color: rgba(var(--bgColor), 0.8);
+ background-color: var(--bgColor);
  font-weight: 300;
  -webkit-transition: -webkit-transform .2s ease-out,opacity .3s ease-out;
  transition: transform .2s ease-out,opacity .3s ease-out;
