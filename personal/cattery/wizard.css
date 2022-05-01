@@ -205,7 +205,6 @@ a:visited {
 .button_tall {
 	border: 1px solid var(--black);
 	background: var(--white);
-	background-color: unset !important;
 }
 
 /* Cattery Setting Box */
