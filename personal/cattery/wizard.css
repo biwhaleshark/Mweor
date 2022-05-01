@@ -430,6 +430,10 @@ a:visited {
 .wizard {
 	float: right;
 	height: 100%;
+	background-image: url("https://64.media.tumblr.com/c86c4e6ddb9bae4529aeba497c49e779/96e93ab3edcfc71c-4b/s400x600/64aadcf2d2f4bec75fb4daee9eea4920d1b2e300.gif");
+	width: 20%;
+	background-repeat: no-repeat;
+	background-size: contain;
 }
 
 .intro {
