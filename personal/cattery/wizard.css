@@ -1,0 +1,460 @@
+/************************************************
+	wizard bowling alley carpet layout
+	coded by #559 for #559
+*************************************************/
+
+/** Style Imports *************/
+@import url("https://biwhaleshark.github.io/Mweor/base/resets.css");
+@import url("https://pro.fontawesome.com/releases/v5.15.4/css/all.css");
+
+/************************************************
+	Settings
+************************************************/
+
+/** Variables *****************/
+:root {
+	--white: #ffffff;
+	--grey: #808080;
+	--black: #000000;
+}
+
+/************************************************
+	Resets
+************************************************/
+#topbanner,
+#gametime {
+	display: block !important;
+}
+
+/* Optional Hidden */
+.titlebar,
+#titletxt,
+.add_small_margins .compose,
+#reportplayer,
+#cattery_infobox,
+#cattery_menu,
+#cattery_descbox i:last-child,
+form .add_marigns,
+.breed_count,
+.login_reward_box {
+	display: none;
+}
+
+html,
+body {
+	height: 100%;
+}
+
+body {
+	background: var(--bgImage);
+}
+
+body,
+#holder {
+	margin: 0;
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+}
+
+#holder {
+	position: relative;
+	width: 75vw;
+	height: 85vh;
+	overflow-y: scroll !important;
+	overflow-x: hidden !important;
+	-ms-overflow-style: none;
+	scrollbar-width: none;
+	top: 40px;
+}
+
+#holder::-webkit-scrollbar {
+	display: none;
+}
+
+#holder::before {
+	top: 0px;
+	right: 0px;
+	position: fixed;
+	padding: 12px;
+	color: var(--white);
+	font-family: var(--font-family-1);
+}
+
+#content {
+	background: transparent;
+	padding: 0px;
+	margin: 0px;
+	width: 100%;
+	left: 0px;
+	font-family: var(--font-family-1);
+}
+
+#contentholder {
+	width: 100%;
+	left: 0px;
+}
+
+#cattery_descbox {
+	width: 100%;
+	height: 660px;
+	float: none;
+	right: unset;
+	padding: 0px;
+	margin: 0px;
+	background: transparent;
+	top: -45px;
+}
+
+#gametime::before {
+	content: "Layout by #559";
+	padding: 10px;
+	color: var(--white);
+	font-style: italic;
+	font-weight: lighter;
+}
+
+#cattery_infobox {
+	background: transparent;
+	padding: 0px;
+	float: none;
+	left: 0px;
+}
+
+.titlebar {
+	width: 100%;
+	margin: 0px;
+}
+
+#titletxt {
+	width: 100%;
+	height: auto;
+	top: 0px;
+	left: 0px;
+}
+
+#gametime {
+	position: fixed;
+	right: 0px;
+	bottom: 0px;
+	top: unset;
+	z-index: 5;
+	display: initial !important;
+	padding: 18px;
+	color: var(--white);
+	font-style: italic;
+	font-weight: bold;
+}
+
+.add_small_margins {
+	margin: 0px;
+}
+
+/* Link Defaults */
+a,
+a:link,
+a:visited {
+	color: var(--white);
+}
+
+.intro a:hover,
+.intro a:link:hover,
+.intro a:visited:hover {
+	text-decoration: underline;
+}
+
+.add_small_margins .good_label,
+.add_small_margins .neutral_label {
+	margin: 0px;
+	font-weight: bold;
+	font-size: 22px;
+	line-height: 22px;
+	height: 45px;
+	display: inline-block;
+	width: 90px;
+	z-index: 99999;
+	position: absolute;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	text-shadow: var(--shadow);
+}
+
+.add_small_margins .good_label {
+	color: var(--white);
+	background: var(--peach);
+}
+
+.add_small_margins .neutral_label {
+	color: var(--white) !important;
+	background: var(--plum) !important;
+}
+
+/* Mweor Tabs */
+.ui-widget-header {
+	background: transparent;
+}
+
+.ui-state-default,
+.ui-widget-header .ui-state-default,
+.ui-widget-content .ui-state-default {
+	background: transparent;
+}
+
+.button,
+.button_tall {
+	border: 1px solid var(--black);
+	background: var(--white);
+	background-color: unset !important;
+}
+
+/* Cattery Setting Box */
+#contentholder form center .tborder {
+	width: 100% !important;
+}
+
+/* Cattery Descbox Tabs */
+#cattery_descbox {
+	overflow: visible;
+}
+
+.tabHolder {
+	position: relative;
+	float: left;
+	height: 0px;
+	width: 100%;
+	top: -32px;
+	position: relative;
+}
+
+.tabBox {
+	position: relative;
+	clear: both;
+	margin: 0px 0px;
+	height: 0px;
+	width: 100% !important;
+}
+
+.tabSingle {
+	padding: 0px 0px;
+}
+
+.tabBox .tabSingle {
+	float: left;
+}
+
+.tabBox .tabSingle label {
+	position: relative;
+	padding: 10px;
+	font-weight: bold;
+	top: 7px;
+	margin: 0px;
+	color: var(--white);
+	text-shadow: var(--shadow);
+}
+
+.tabBox .content {
+	position: absolute;
+	padding: 15px;
+	top: 30px;
+	bottom: 0px;
+	right: 0px;
+	left: 0px;
+	height: 250px;
+	width: auto;
+	overflow: auto;
+	background-color: var(--plum);
+	color: var(--white);
+}
+
+.tabBox [type="radio"]:checked~label {
+	z-index: 2;
+	background: var(--plum);
+	color: var(--white);
+	text-shadow: var(--shadow);
+}
+
+.tabBox [type="radio"]:checked~label~.content {
+	z-index: 1;
+}
+
+.tabSingle input[type="radio"] {
+	display: none;
+}
+
+/* Cattery Descbox Image */
+#imgHolder {
+	background: url("https://cdn.discordapp.com/attachments/933495595858022420/951321107229728848/witchy.png");
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: top center;
+	height: 350px;
+}
+
+/* Navigation */
+.iconNav {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	position: fixed;
+	right: 0px;
+	top: unset;
+	height: 448px;
+	z-index: 9999;
+}
+
+.fa,
+.fas {
+	--sizing: 45px;
+	color: var(--white) !important;
+	background-color: var(--peach);
+	font-size: 25px;
+	transition: 0.3s;
+	text-shadow: var(--shadow);
+	width: var(--sizing);
+	height: var(--sizing);
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.fa:hover,
+.fas:hover {
+	color: var(--dkblue);
+	transform: scale(1.2, 1.2);
+	transition: 0.3s;
+}
+
+/* Quicklinks */
+.quicklinks {
+	display: flex;
+	flex-direction: row;
+	left: 90px;
+	position: relative;
+	top: 45px;
+}
+
+.quicklinks .fa:hover,
+.quicklinks .fas:hover {
+	transform: unset;
+	background-color: var(--plum);
+}
+
+/* Mweor Tabs */
+#contentholder>form:nth-of-type(1) {
+	background: transparent;
+}
+
+#mweor_tabs {
+	margin-top: -42px;
+}
+
+.ui-widget-content {
+	background: var(--plum) !important;
+	border-radius: 0px;
+}
+
+.ui-tabs {
+	padding: 0px;
+}
+
+.ui-tabs .ui-tabs-nav {
+	background-color: var(--dkorange);
+	padding: 0px;
+	border-radius: 0px;
+}
+
+.ui-tabs .ui-tabs-nav li.ui-tabs-active {
+	margin-bottom: -1px;
+	padding-bottom: 1px;
+	background-color: var(--purple);
+	border-radius: 0px;
+}
+
+.ui-state-active a,
+.ui-state-active a:link,
+.ui-state-active a:visited,
+.ui-state-default a,
+.ui-state-default a:link,
+.ui-state-default a:visited {
+	color: var(--white);
+	font-weight: bold;
+	text-shadow: var(--shadow);
+}
+
+#contentholder>.titlebar+div>div {
+	z-index: 999;
+	position: fixed;
+	bottom: 0px;
+	left: 0px;
+	padding: 13px;
+}
+
+.mweorbox a,
+.mweorbox a:link,
+.mweorbox a:visited,
+.ui-widget-content {
+	color: var(--white);
+}
+
+.highlight_me,
+.highlight_me td {
+	background: transparent !important;
+}
+
+#dialog_lightbox_text a,
+#dialog_lightbox_text a:link,
+#dialog_lightbox_text a:visited,
+.ui-dialog .ui-dialog-title {
+	color: var(--white);
+}
+
+.ui-state-default .ui-icon {
+	filter: invert(1);
+}
+
+#mpopup {
+	z-index: 999999;
+}
+
+#popup_fade_background {
+	z-index: 99999;
+}
+
+.space_below .item_box {
+	float: left !important;
+	position: revert !important;
+	color: var(--white);
+}
+
+.wizard {
+	float: right;
+	height: 100%;
+}
+
+.intro {
+	font-size: 25px;
+	font-style: italic;
+	font-weight: bold;
+}
+
+#columns p {
+	margin: 0 !important;
+}
+
+.add_small_margins .good_label:nth-of-type(2) {
+	display: none;
+}
+
+.ui-state-active, .ui-widget-content .ui-state-active, .ui-widget-header .ui-state-active,
+.ui-state-default, .ui-widget-content .ui-state-default, .ui-widget-header .ui-state-default {
+	color: var(--white);
+}
+
+.ui-state-active, .ui-widget-content .ui-state-active, .ui-widget-header .ui-state-active {
+	text-decoration: underline;
+}
+
+.tab_paging {
+	width: 100%;
+}
