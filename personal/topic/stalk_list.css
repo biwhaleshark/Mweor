@@ -11,6 +11,7 @@
 
 .box a {
 	width: 33.33%;
+	line-height: 0;
 }
 
 .box a img {
