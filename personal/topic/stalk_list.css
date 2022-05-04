@@ -1,6 +1,6 @@
 .box {
 	width: 100%;
-	height: 325px;
+	height: 375px;
 	overflow-y: scroll;
 	overflow-wrap: break-word;
 	display: flex;
