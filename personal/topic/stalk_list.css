@@ -24,4 +24,9 @@ h2 {
 
 .bought {
 	filter: grayscale(1);
+	transition: ease 0.5s;
+}
+.bought:hover {
+	filter: grayscale(0);
+	transition: ease 0.5s;
 }
