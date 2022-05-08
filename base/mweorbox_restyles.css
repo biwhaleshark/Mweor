@@ -95,7 +95,8 @@
 }
 
 .mweorbox table tbody tr:nth-child(2) td {
-	width: 175px;
+	width: fit-content;
+	max-width: 175px;
 	background: var(--bgColor);
 	border-radius: 5px 0 0 0;
 	padding: 10px;
