@@ -59,7 +59,7 @@ body,
 
 #holder {
 	position: relative;
-	width: 75vw;
+	width: 80vw;
 	height: 85vh;
 	overflow-y: scroll !important;
 	overflow-x: hidden !important;
