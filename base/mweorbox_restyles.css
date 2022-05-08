@@ -1,0 +1,112 @@
+/************************************************
+	FILE:	mweorbox_restyles.css
+	BY:		#559
+
+	Restyles the default mweorbox
+************************************************/
+
+* {
+	box-sizing: border-box !important;
+}
+
+.mweorbox {
+	width: 200px;
+	height: fit-content !important;
+	border-radius: 0px !important;
+}
+
+.mweorbox table,
+.mweorbox table tbody {
+	width: 100%;
+	height: 100%;
+	background: transparent;
+	display: block;
+	position: relative;
+}
+
+.mweorbox table tbody tr:nth-child(1) {
+	height: 225px;
+	display: flex;
+	flex-direction: column-reverse;
+	position: relative;
+}
+
+.mweorbox table tbody tr:nth-child(1) td:nth-child(3) {
+	background: #fff;
+	z-index: 1;
+	width: fit-content;
+	border-radius: 0 0px 5px 0px;
+	box-shadow: 2px 2px 4px #0014453b;
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+
+.mweorbox table tbody tr:nth-child(1) td:nth-child(3) .mweor_icon{
+	margin: 8px !important;
+}
+
+.mweorbox table tbody tr:nth-child(1) td:nth-child(2) {
+	top: 0;
+	width: 100% !important;
+	height: 150px;
+	position: absolute;
+}
+
+.mweorbox table tbody tr:nth-child(1) td:nth-child(2) div {
+	width: 100% !important;
+	height: 100% !important;
+	border: 0 solid transparent !important;
+}
+
+
+.mweorbox table tbody tr:nth-child(1) td:nth-child(2) div img {
+	width: 100%;
+	display: block;
+	height: auto;
+}
+
+.fv {
+	display: none;
+}
+
+.mweorbox table tbody tr:nth-child(1) td:nth-child(1) {
+	z-index: 1;
+}
+
+.mweorbox table tbody tr:nth-child(1) td:nth-child(1) .mweor_icon {
+	margin: 5px;
+}
+
+.mweorbox table tbody tr:nth-child(2) {
+	width: 100%;
+	display: flex;
+	justify-content: flex-end;
+	position: absolute;
+	top: 140px;
+	z-index: 1;
+}
+
+.mweorbox table tbody tr:nth-child(2) td {
+	width: 175px;
+	background-color: #fff;
+	border-radius: 5px 0 0 0;
+}
+
+.mweorbox table tbody tr:nth-child(2) .highlight_me {
+	background: #fff !important;
+}
+
+.mweorbox table tbody tr:nth-child(2) td div {
+	text-align: end;
+}
+
+.mweorbox table tbody tr:nth-child(2) td .text_medium a {
+	font-size: 16px;
+	font-weight: bold;
+	color: #000 !important;
+}
+
+.mweorbox table tbody tr:nth-child(2) td .text_medium a:hover {
+	text-decoration: underline;
+}
