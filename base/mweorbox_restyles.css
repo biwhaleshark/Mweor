@@ -92,7 +92,7 @@
 	width: 175px;
 	background: var(--bgColor);
 	border-radius: 5px 0 0 0;
-	padding: 10px 0px;
+	padding: 10px;
 }
 
 .mweorbox table tbody tr:nth-child(2) .highlight_me {
