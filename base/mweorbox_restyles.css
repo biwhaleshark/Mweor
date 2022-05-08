@@ -1,6 +1,6 @@
 /************************************************
 	FILE:	mweorbox_restyles.css
-	BY:		#559
+	BY:	#559
 
 	Restyles the default mweorbox
 ************************************************/
@@ -89,22 +89,23 @@
 
 .mweorbox table tbody tr:nth-child(2) td {
 	width: 175px;
-	background-color: #fff;
+	background: var(--bgColor)
 	border-radius: 5px 0 0 0;
 }
 
 .mweorbox table tbody tr:nth-child(2) .highlight_me {
-	background: #fff !important;
+	background: var(--bgColor) !important;
 }
 
 .mweorbox table tbody tr:nth-child(2) td div {
 	text-align: end;
+	color: var(--fontColor) !important;
 }
 
 .mweorbox table tbody tr:nth-child(2) td .text_medium a {
 	font-size: 16px;
 	font-weight: bold;
-	color: #000 !important;
+	color: var(--fontColor) !important;
 }
 
 .mweorbox table tbody tr:nth-child(2) td .text_medium a:hover {
