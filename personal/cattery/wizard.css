@@ -3,13 +3,17 @@
 	coded by #559 for #559
 *************************************************/
 
+/************************************************
+	Settings
+************************************************/
+
+
 /** Style Imports *************/
 @import url("https://biwhaleshark.github.io/Mweor/base/resets.css");
 @import url("https://pro.fontawesome.com/releases/v5.15.4/css/all.css");
 
-/************************************************
-	Settings
-************************************************/
+/** Components ****************/
+@import url("https://biwhaleshark.github.io/Mweor/base/mweorbox_restyles.css");
 
 /** Variables *****************/
 :root {
