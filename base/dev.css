@@ -156,3 +156,19 @@ a:visited {
 /************************************************
 	Styles
 ************************************************/
+
+/* navigation */
+.header {
+ 	display: flex;
+ 	justify-content: flex-end;
+}
+.nav {
+	width: fit-content;
+	display: flex;
+	justify-content: space-evenly;
+}
+.nav a {
+ 	display: flex;
+ 	justify-content: flex-end;
+	padding: 8px 10px;
+}
