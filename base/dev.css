@@ -168,6 +168,11 @@ a:visited {
 	width: 100%
 }
 .profile-picture {
+	position: absolute;
+	top: 25%;
+	left: 10%;
+	width: 35%;
+	outline: var(--pfp-border);
 }
 
 /* navigation */
