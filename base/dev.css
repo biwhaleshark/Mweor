@@ -178,11 +178,16 @@ a:visited {
 	width: 100%;
 }
 
-.utilities a, .utilities span {
-  font-size: 22px;
-  padding: 0px 5px 10px 5px;
+.utilities a,
+.utilities span,
+.utilities img {
+	  font-size: 22px;
+	  padding: 0px 5px 10px 5px;
 }
 
+.utilities img {
+	width: 22px;
+}
 /* navigation */
 .header {
  	display: flex;
@@ -197,7 +202,15 @@ a:visited {
 	padding: 1vw 1.2vw;
 	font-family: var(--font-family-1);
 	font-weight: bold;
-	font-size: 1.8vw;
+	font-size: 2vw;
+}
+
+.cattery-name {
+	font-size: 2.7rem;
+	  font-family: var(--font-family-1);
+	  line-height: 2.7rem;
+	  margin: 0.5rem 0;
+	  font-weight: 900;
 }
 
 .main-wrap {
