@@ -90,16 +90,12 @@ body,
 
 #cattery_descbox {
 	width: var(--descbox-width);
-	height: fit-content;
+	height: 75vh;
 	float: none;
 	right: unset;
 	padding: var(--descbox-padding);
 	margin: var(--descbox-margin);
 	background-color: var(--descbox-bg) !important;
-	background: var(--descbox-img);
-	background-size: 50%;
-	background-repeat: no-repeat;
-	background-position: -30% 0%;
 }
 
 #cattery_infobox {
@@ -162,8 +158,10 @@ a:visited {
 .masthead {
 	width: 40%;
 	line-height: 0;
-	float: left;
 	background: var(--descbox-img);
+	height: 100%;
+	display: inline-block;
+	background-size: cover;
 }
 .masthead-img {
 	width: 100%
