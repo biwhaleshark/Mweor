@@ -163,6 +163,7 @@ a:visited {
 	width: 40%;
 	line-height: 0;
 	float: left;
+	background: var(--descbox-img);
 }
 .masthead-img {
 	width: 100%
