@@ -178,6 +178,12 @@ a:visited {
 	width: 100%;
 }
 
+.utilities {
+	display: flex;
+	justify-content: space-evenly;
+	margin: 0 10%;
+}
+
 .utilities a,
 .utilities span,
 .utilities img {
@@ -188,6 +194,7 @@ a:visited {
 .utilities img {
 	width: 22px;
 }
+
 /* navigation */
 .header {
  	display: flex;
