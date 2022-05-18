@@ -178,7 +178,9 @@ a:visited {
 	width: 100%;
 }
 
-.utilities {
+.utilities a, .utilities span {
+  font-size: 22px;
+  padding: 0px 5px 10px 5px;
 }
 
 /* navigation */
