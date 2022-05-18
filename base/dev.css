@@ -27,7 +27,7 @@
 	--white: #ffffff;
 	--black: #000000;
 	
-	--holder-bg: 80%;
+	--holder-width: 80%;
 	
 	
 }
@@ -49,6 +49,13 @@ form .add_marigns,
 	display: none;
 }
 
+body {
+	background-color: var(--bg-color);
+	background: var(--bg-image);
+	background-repeat: var(--bg-repeat);
+	background-size: var(--bg-size);
+}
+
 body,
 #holder {
 	margin: 0;
@@ -60,13 +67,14 @@ body,
 #holder {
 	position: relative;
 	width: 100%;
+	background: transparent;
 }
 
 #content {
 	background: var(--descbox-bg);
 	padding: 0;
 	margin: 0;
-	width: var(--holder-bg);
+	width: var(--holder-width);
 	left: 0;
 }
 
