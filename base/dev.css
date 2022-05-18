@@ -164,8 +164,10 @@ a:visited {
 	line-height: 0;
 	float: left;
 }
-.masthead img {
+.masthead-img {
 	width: 100%
+}
+.profile-picture {
 }
 
 /* navigation */
