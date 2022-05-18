@@ -94,7 +94,11 @@ body,
 	right: unset;
 	padding: var(--descbox-padding);
 	margin: var(--descbox-margin);
-	background: var(--descbox-bg);
+	background-color: var(--descbox-bg) !important;
+	background: var(--descbox-img);
+	background-size: 50%;
+	background-repeat: no-repeat;
+	background-position: -30% 0%;
 }
 
 #cattery_infobox {
