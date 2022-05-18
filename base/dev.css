@@ -97,7 +97,7 @@ body,
 	padding: var(--descbox-padding);
 	margin: var(--descbox-margin);
 	background-color: var(--descbox-bg) !important;
-	box-shadow: 5px 5px 8px var(--black);
+	box-shadow: 5px 5px 8px #001e27;
 }
 
 #cattery_infobox {
@@ -215,11 +215,11 @@ a:visited {
 }
 
 .cattery-name {
-	font-size: 2.7rem;
-	  font-family: var(--font-family-1);
-	  line-height: 2.7rem;
-	  margin: 0.5rem 0;
-	  font-weight: 900;
+	font-size: 5vw;
+	font-family: var(--font-family-1);
+	line-height: 5vw;
+	margin: 0.5rem 0;
+	font-weight: 900;
 }
 
 .intro {
