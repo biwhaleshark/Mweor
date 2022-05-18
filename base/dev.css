@@ -165,12 +165,20 @@ a:visited {
 	background-size: cover;
 }
 
+.masthead-wrap {
+  position: absolute;
+  top: 10%;
+  left: 24%;
+  width: 20%;
+  outline: var(--pfp-border);
+  background: var(--descbox-bg);
+}
+
 .profile-picture {
-	position: absolute;
-	top: 10%;
-	left: 20%;
-	width: 20%;
-	outline: var(--pfp-border);
+	width: 100%;
+}
+
+.utilities {
 }
 
 /* navigation */
