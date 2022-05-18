@@ -226,7 +226,7 @@ a:visited {
 	text-align: center;
 	width: 70%;
 	margin: auto !important;
-	padding: 10px;
+	padding: 10px !important;
 }
 
 .intro span {
