@@ -28,7 +28,7 @@
 	--black: #000000;
 	
 	--holder-width: 80%;
-	
+	--descbox-width: 100%;
 	
 }
 
@@ -65,13 +65,13 @@ body,
 }
 
 #holder {
+	background: transparent;
 	position: relative;
 	width: 100%;
-	background: transparent;
 }
 
 #content {
-	background: var(--descbox-bg);
+	background: var(--contentholder-bg);
 	padding: 0;
 	margin: 0;
 	width: var(--holder-width);
@@ -84,12 +84,12 @@ body,
 }
 
 #cattery_descbox {
-	width: 100%;
+	width: var(--descbox-width);
 	float: none;
 	right: unset;
 	padding: 0;
 	margin: 0;
-	background: transparent;
+	background: var(--descbox-bg);
 }
 
 #cattery_infobox {
