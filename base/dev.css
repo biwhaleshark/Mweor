@@ -97,6 +97,7 @@ body,
 	padding: var(--descbox-padding);
 	margin: var(--descbox-margin);
 	background-color: var(--descbox-bg) !important;
+	box-shadow: 5px 5px 8px var(--black);
 }
 
 #cattery_infobox {
