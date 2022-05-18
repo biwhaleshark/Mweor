@@ -228,6 +228,8 @@ a:visited {
 	width: 70%;
 	margin: auto !important;
 	padding: 10px !important;
+	border-bottom: 1.5px solid #001b21;
+	font-style: italic;
 }
 
 .intro span {
