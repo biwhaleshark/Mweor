@@ -26,6 +26,10 @@
 :root {
 	--white: #ffffff;
 	--black: #000000;
+	
+	--holder-bg: 80%;
+	
+	
 }
 
 /************************************************
@@ -59,15 +63,14 @@ body,
 }
 
 #content {
-	background: transparent;
+	background: var(--descbox-bg);
 	padding: 0;
 	margin: 0;
-	width: 100%;
+	width: var(--holder-bg);
 	left: 0;
 }
 
 #contentholder {
-	background: var(--holderbgColor);
 	width: 100%;
 	left: 0;
 }
