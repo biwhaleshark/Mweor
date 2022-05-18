@@ -30,6 +30,10 @@
 	--holder-width: 80%;
 	--descbox-width: 100%;
 	
+	--holder-margin: unset;
+	--descbox-margin: unset;
+	--descbox-padding: unset;
+	
 }
 
 /************************************************
@@ -73,13 +77,14 @@ body,
 #content {
 	background: var(--contentholder-bg);
 	padding: 0;
-	margin: 0;
+	margin: var(--holder-margin);
 	width: var(--holder-width);
 	left: 0;
 }
 
 #contentholder {
 	width: 100%;
+	margin: 0;
 	left: 0;
 }
 
@@ -87,8 +92,8 @@ body,
 	width: var(--descbox-width);
 	float: none;
 	right: unset;
-	padding: 0;
-	margin: 0;
+	padding: var(--descbox-padding);
+	margin: var(--descbox-margin);
 	background: var(--descbox-bg);
 }
 
