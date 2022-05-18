@@ -223,8 +223,10 @@ a:visited {
 
 .main-wrap {
 	width: 60%;
+	height: 100%;
 	float: right;
 	position: relative;
+	overflow-y: auto;
 }
 
 .cattery-name,
