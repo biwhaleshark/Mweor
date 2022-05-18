@@ -161,6 +161,7 @@ a:visited {
 /* masthead */
 .masthead {
 	width: 40%;
+	line-height: 0;
 }
 .masthead img {
 	width: 100%
@@ -180,5 +181,5 @@ a:visited {
 	padding: 1vw 1.2vw;
 	font-family: var(--font-family-1);
 	font-weight: bold;
-	font-size: 16px;
+	font-size: 1.8vw;
 }
