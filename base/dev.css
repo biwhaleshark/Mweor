@@ -228,6 +228,11 @@ a:visited {
 	margin: auto !important;
 }
 
+.intro span {
+  font-size: 1rem;
+  font-weight: 100;
+}
+
 .main-wrap {
 	width: 60%;
 	height: 100%;
@@ -238,6 +243,6 @@ a:visited {
 
 .cattery-name,
 .main-wrap p {
-	margin: 0 30px;
+	margin: 0 40px;
 	padding: 10px;
 }
