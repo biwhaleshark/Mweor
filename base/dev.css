@@ -192,7 +192,8 @@ a:visited {
 }
 
 .utilities img {
-	width: 22px;
+	width: auto;
+	height: 32px;
 }
 
 /* navigation */
@@ -226,6 +227,7 @@ a:visited {
 	position: relative;
 }
 
+.cattery-name,
 .main-wrap p {
 	padding: 0 50px;
 }
