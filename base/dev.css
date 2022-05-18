@@ -226,6 +226,7 @@ a:visited {
 	text-align: center;
 	width: 70%;
 	margin: auto !important;
+	padding: 10px;
 }
 
 .intro span {
@@ -244,5 +245,5 @@ a:visited {
 .cattery-name,
 .main-wrap p {
 	margin: 0 40px;
-	padding: 10px;
+	padding: 10px 0 0;
 }
