@@ -27,13 +27,12 @@
 	--white: #ffffff;
 	--black: #000000;
 	
-	--holder-width: 80%;
+	--holder-width: 90%;
 	--descbox-width: 100%;
 	
-	--holder-margin: unset;
-	--descbox-margin: unset;
-	--descbox-padding: unset;
-	
+	--holder-margin: 3rem 0;
+	--descbox-margin: 1rem 0;
+	--descbox-padding: 1rem;	
 }
 
 /************************************************
@@ -90,6 +89,7 @@ body,
 
 #cattery_descbox {
 	width: var(--descbox-width);
+	height: fit-content;
 	float: none;
 	right: unset;
 	padding: var(--descbox-padding);
@@ -140,7 +140,6 @@ a:visited {
 
 .button,
 .button_tall {
-	border: 1px solid var(--cBlack);
 	background: var(--cWhite);
 	background-color: unset !important;
 }
