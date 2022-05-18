@@ -89,6 +89,7 @@ body,
 }
 
 #cattery_descbox {
+	overflow: unset;
 	width: var(--descbox-width);
 	height: 75vh;
 	float: none;
@@ -163,14 +164,12 @@ a:visited {
 	display: inline-block;
 	background-size: cover;
 }
-.masthead-img {
-	width: 100%
-}
+
 .profile-picture {
 	position: absolute;
-	top: 25%;
-	left: 10%;
-	width: 35%;
+	top: 10%;
+	left: 20%;
+	width: 20%;
 	outline: var(--pfp-border);
 }
 
