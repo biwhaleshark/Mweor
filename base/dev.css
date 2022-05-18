@@ -173,4 +173,6 @@ a:visited {
  	justify-content: flex-end;
 	padding: 1vw 1.2vw;
 	font-family: var(--font-family-1);
+	font-weight: bold;
+	font-size: 16px;
 }
