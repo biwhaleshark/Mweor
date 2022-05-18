@@ -1,0 +1,139 @@
+/************************************************
+	FILE:	CSS_starter
+	THEME:	NULL
+	FOR:	USERID/TOPICID
+	BY:		#559
+
+	GOLIVE DELETE: called in HTML base file.
+	main CSS file.
+	calls:
+	- reset file
+	- fontawesome file
+	- css componment files for layout
+************************************************/
+
+/************************************************
+	Settings
+************************************************/
+
+/** Imported Styles ***********/
+@import url("https://biwhaleshark.github.io/Mweor/base/resets.css");
+@import url("https://pro.fontawesome.com/releases/v5.15.4/css/all.css");
+
+/** Components ****************/
+
+/** Variables *****************/
+:root {
+	--white: #ffffff;
+	--black: #000000;
+}
+
+/************************************************
+	Resets
+************************************************/
+
+/** Optional Hidden ***********/
+.titlebar,
+#titletxt,
+.add_small_margins,
+#reportplayer,
+#cattery_infobox,
+#cattery_menu,
+#cattery_descbox i:last-child,
+form .add_marigns,
+.breed_count {
+	display: none;
+}
+
+body,
+#holder {
+	margin: 0;
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+}
+
+#holder {
+	position: relative;
+	width: 100%;
+}
+
+#content {
+	background: transparent;
+	padding: 0;
+	margin: 0;
+	width: 100%;
+	left: 0;
+}
+
+#contentholder {
+	background: var(--holderbgColor);
+	width: 100%;
+	left: 0;
+}
+
+#cattery_descbox {
+	width: 100%;
+	float: none;
+	right: unset;
+	padding: 0;
+	margin: 0;
+	background: transparent;
+}
+
+#cattery_infobox {
+	background: transparent;
+	padding: 0;
+	float: none;
+	left: 0;
+}
+
+.titlebar {
+	width: 100%;
+	margin: 0;
+}
+
+#titletxt {
+	width: 100%;
+	height: auto;
+	top: 0;
+	left: 0;
+}
+
+.add_small_margins {
+	margin: 0;
+}
+
+/* Link Defaults */
+a,
+a:link,
+a:visited {
+	color: var(--cBlack);
+}
+
+/* Mweor Tabs */
+.ui-widget-header {
+	background: transparent;
+}
+
+.ui-state-default,
+.ui-widget-header .ui-state-default,
+.ui-widget-content .ui-state-default {
+	background: transparent;
+}
+
+.button,
+.button_tall {
+	border: 1px solid var(--cBlack);
+	background: var(--cWhite);
+	background-color: unset !important;
+}
+
+/* Cattery Setting Box */
+#contentholder form center .tborder {
+	width: 100% !important;
+}
+
+/************************************************
+	Styles
+************************************************/
