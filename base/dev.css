@@ -158,6 +158,14 @@ a:visited {
 	Styles
 ************************************************/
 
+/* masthead */
+.masthead {
+	width: 40%;
+}
+.masthead img {
+	width: 100%
+}
+
 /* navigation */
 .header {
  	display: flex;
