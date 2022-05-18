@@ -169,8 +169,6 @@ a:visited {
 	justify-content: space-evenly;
 }
 .nav a {
- 	display: flex;
- 	justify-content: flex-end;
 	padding: 1vw 1.2vw;
 	font-family: var(--font-family-1);
 	font-weight: bold;
