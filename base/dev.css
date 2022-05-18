@@ -162,6 +162,7 @@ a:visited {
 .masthead {
 	width: 40%;
 	line-height: 0;
+	float: left;
 }
 .masthead img {
 	width: 100%
