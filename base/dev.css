@@ -185,15 +185,15 @@ a:visited {
 }
 
 .utilities a,
-.utilities span,
-.utilities img {
-	  font-size: 22px;
+.utilities span {
+	  font-size: 2vw;
 	  padding: 0px 5px 10px 5px;
 }
 
 .utilities img {
 	width: auto;
-	height: 32px;
+	height: 2.1vw;
+	padding: 0px 2px 2px 2px;
 }
 
 /* navigation */
