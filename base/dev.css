@@ -58,6 +58,7 @@ body {
 	background-repeat: var(--bg-repeat);
 	background-size: var(--bg-size);
 	font-size: 16px !important;
+	background-attachment: var(--bg-attachment);
 }
 
 body,
@@ -98,6 +99,7 @@ body,
 	margin: var(--descbox-margin);
 	background-color: var(--descbox-bg) !important;
 	box-shadow: 5px 5px 8px #001e27;
+	outline: var(--border);
 }
 
 #cattery_infobox {
@@ -167,16 +169,25 @@ a:visited {
 }
 
 .masthead-wrap {
-  position: absolute;
-  top: 10%;
-  left: 24%;
-  width: 20%;
-  outline: var(--pfp-border);
-  background: var(--descbox-bg);
+	position: absolute;
+	top: 10%;
+	left: 16%;
+	width: 25%;
+	background: var(--descbox-bg);
+}
+
+.masthead-wrap::before {
+	width: 100%;
+	height: 100%;
+	background: var(--corner-gradient);
+	position: absolute;
+	content: '';
+	outline: var(--border);
 }
 
 .profile-picture {
 	width: 100%;
+	padding: 10px;
 }
 
 .utilities {
@@ -249,4 +260,12 @@ a:visited {
 .main-wrap p {
 	margin: 0 50px;
 	padding: 10px 0 0;
+}
+
+/* badges */
+
+.item_box {
+	background: var(--corner-gradient);
+	outline: var(--border);
+	border-radius: var(--border-radius-small);
 }
