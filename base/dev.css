@@ -194,6 +194,8 @@ a:visited {
 	display: flex;
 	justify-content: space-evenly;
 	margin: 0 10%;
+	z-index: 1;
+	position: relative;
 }
 
 .utilities a,
