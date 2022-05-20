@@ -99,7 +99,7 @@ body,
 	margin: var(--descbox-margin);
 	background-color: var(--descbox-bg) !important;
 	box-shadow: 5px 5px 8px #001e27;
-	border-radius: --var(--border-radius-big);
+	border-radius: var(--border-radius-big);
 	outline: var(--border);
 }
 
