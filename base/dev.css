@@ -265,9 +265,9 @@ a:visited {
 }
 
 /* badges */
-
 .item_box {
 	background: var(--corner-gradient);
+	background-color: var(--descbox-bg);
 	outline: var(--border);
 	border-radius: var(--border-radius-small);
 }
