@@ -99,6 +99,7 @@ body,
 	margin: var(--descbox-margin);
 	background-color: var(--descbox-bg) !important;
 	box-shadow: 5px 5px 8px #001e27;
+	border-radius: --var(--border-radius-big);
 	outline: var(--border);
 }
 
@@ -166,6 +167,7 @@ a:visited {
 	height: 100%;
 	display: inline-block;
 	background-size: cover;
+	border-radius: var(--border-radius-big) 0 0 var(--border-radius-big);
 }
 
 .masthead-wrap {
@@ -174,6 +176,7 @@ a:visited {
 	left: 16%;
 	width: 25%;
 	background: var(--descbox-bg);
+	border-radius: var(--border-radius-small) 0 0 var(--border-radius-small);
 }
 
 .masthead-wrap::before {
@@ -183,6 +186,7 @@ a:visited {
 	position: absolute;
 	content: '';
 	outline: var(--border);
+	border-radius: var(--border-radius-small) 0 0 var(--border-radius-small);
 }
 
 .profile-picture {
