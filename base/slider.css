@@ -73,7 +73,7 @@
 }
 .slider__contents {
   height: 100%;
-  padding: 2rem;
+  padding: 1rem;
   text-align: center;
   display: -webkit-box;
   display: -webkit-flex;
@@ -99,7 +99,7 @@
   font-family: var(--font-family-1);
 }
 .slider__txt {
-  color: #999;
+  color: var(--text-dark);
   margin-bottom: 3rem;
   max-width: 300px;
 }
