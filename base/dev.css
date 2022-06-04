@@ -138,6 +138,13 @@ a:visited {
 	color: var(--cBlack);
 }
 
+/* Buttons */
+.button, .button_tall {
+	color: var(--link-light);
+	border-color: var(--link-light);
+}
+	
+
 /* Mweor Tabs */
 #mweor_tabs {
 	border-radius: 15px;
