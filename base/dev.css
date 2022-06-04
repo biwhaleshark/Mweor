@@ -18,7 +18,7 @@
 
 /** Imported Styles ***********/
 @import url("https://biwhaleshark.github.io/Mweor/base/resets.css");
-@import url("https://biwhaleshark.github.io/Mweor/base/mweorbox_restyles.css");
+/* @import url("https://biwhaleshark.github.io/Mweor/base/mweorbox_restyles.css"); */
 @import url("https://pro.fontawesome.com/releases/v5.15.4/css/all.css");
 @import url("https://biwhaleshark.github.io/Mweor/base/slider.css");
 
@@ -139,13 +139,30 @@ a:visited {
 }
 
 /* Mweor Tabs */
+#mweor_tabs {
+	border-radius: 15px;
+}
+
 .ui-widget-header {
-	background: transparent;
+	background: url("https://cdn.discordapp.com/attachments/933495595858022420/982490399337754624/layout_horizontal.png");
+	background-size: cover;
+	background-position: center;
+	border-radius: var(--border-radius-big) var(--border-radius-big) 0 0;
+	border: 1px solid white;
 }
 
 .ui-state-default,
 .ui-widget-header .ui-state-default,
 .ui-widget-content .ui-state-default {
+	background: transparent;
+}
+
+.ui-tabs .ui-tabs-nav li.ui-tabs-active {
+	background: white;
+	border-radius: 14px 14px 0 0;
+}
+
+.ui-tabs .ui-tabs-nav li a {
 	background: transparent;
 }
 
