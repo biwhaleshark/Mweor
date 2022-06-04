@@ -103,8 +103,9 @@ body,
 	border-radius: var(--border-radius-big);
 	outline: var(--border);
 	background: var(--descbox-img);
-	background-size: contain;
+	background-size: cover;
 	background-repeat: no-repeat;
+	background-position: left center;
 }
 
 #cattery_infobox {
