@@ -2,6 +2,7 @@
   height: var(--slider-height);
   position: relative;
   overflow: hidden;
+  margin: 1rem 0;
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -74,7 +75,7 @@
 .slider__contents {
   height: 100%;
   padding: 1rem;
-  margin: 1rem 50px;
+  margin: 0 50px;
   background: #001a1e30;
   text-align: center;
   border-top: 1.5px solid #001b21;
