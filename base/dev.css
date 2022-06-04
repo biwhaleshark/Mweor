@@ -165,6 +165,15 @@ a:visited:hover {
 	margin: 0px;
 }
 
+.ui-state-default,
+.ui-widget-header .ui-state-default,
+.ui-widget-content .ui-state-default {
+	background: var(--color6);
+	border-radius: var(--border-radius-big) var(--border-radius-big) 0 0;
+	border: 0px solid transparent;
+	border-bottom-width: 0px;
+}
+
 .ui-widget-content {
 	border: none;
 	outline: var(--border);
