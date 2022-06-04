@@ -150,12 +150,20 @@ a:visited {
 	border-radius: 15px;
 }
 
+.ui-tabs {
+	padding: 0;
+}
+
+.ui-widget-content {
+	border: none;
+	outline: var(--border);
+}
+
 .ui-widget-header {
 	background: url("https://cdn.discordapp.com/attachments/933495595858022420/982490399337754624/layout_horizontal.png");
 	background-size: cover;
 	background-position: center;
 	border-radius: var(--border-radius-big) var(--border-radius-big) 0 0;
-	border: 1px solid white;
 }
 
 .ui-state-default,
@@ -163,6 +171,10 @@ a:visited {
 .ui-widget-content .ui-state-default {
 	background: transparent;
 }
+
+.ui-tabs .ui-tabs-nav {
+	padding: 0;
+	
 
 .ui-tabs .ui-tabs-nav li.ui-tabs-active {
 	background: white;
