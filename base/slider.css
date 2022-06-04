@@ -103,6 +103,6 @@
 }
 .slider__txt {
   color: var(--text-dark);
-  margin-bottom: 3rem;
+  margin-bottom: 0 !important;
   max-width: 100%;
 }
