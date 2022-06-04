@@ -352,3 +352,14 @@ a:visited:hover {
 	border-radius: var(--border-radius-small);
 	margin: 32px 10px;
 }
+
+/* dev testing */
+:root {
+	--holder-width: 90%;
+	--descbox-width: 100%;
+
+	--holder-margin: null;
+	--descbox-margin: 2rem 0 2rem 0;
+	--descbox-padding: 0;
+
+}
