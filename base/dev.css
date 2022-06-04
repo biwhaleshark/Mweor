@@ -92,9 +92,8 @@ body,
 }
 
 #cattery_descbox {
-	overflow: unset;
 	width: var(--descbox-width);
-	height: 75vh;
+	height: fit-content !important;
 	float: none;
 	right: unset;
 	padding: var(--descbox-padding);
@@ -103,6 +102,9 @@ body,
 	box-shadow: 5px 5px 8px #001e27;
 	border-radius: var(--border-radius-big);
 	outline: var(--border);
+	background: var(--descbox-img);
+	background-size: contain;
+	background-repeat: no-repeat;
 }
 
 #cattery_infobox {
@@ -165,11 +167,8 @@ a:visited {
 .masthead {
 	width: 40%;
 	line-height: 0;
-	background: var(--descbox-img);
 	height: 100%;
 	display: inline-block;
-	background-size: cover;
-	border-radius: var(--border-radius-big) 0 0 var(--border-radius-big);
 }
 
 .masthead-wrap {
@@ -252,16 +251,17 @@ a:visited {
 }
 
 .intro span {
-  font-size: 1rem;
-  font-weight: 100;
+	font-size: 1rem;
+	font-weight: 100;
 }
 
 .main-wrap {
 	width: 60%;
-	height: 100%;
+	height: fit-content;
 	float: right;
 	position: relative;
 	overflow-y: auto;
+	background-color: var(--descbox-bg);
 }
 
 .cattery-name,
