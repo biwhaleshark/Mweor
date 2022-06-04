@@ -174,8 +174,13 @@ a:visited:hover {
 	border-radius: var(--border-radius-big);
 }
 
-.login_rewards .active, .login_rewards .received {
+.login_rewards .active,
+.login_rewards .received {
 	background: var(--color6); 
+}
+
+.login_rewards > div {
+	border: 0px solid transparent;
 }
 
 .ui-widget-header {
