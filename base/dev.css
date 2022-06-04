@@ -161,6 +161,10 @@ a:visited:hover {
 	padding: 0;
 }
 
+.ui-tabs .ui-tabs-nav li {
+	margin: 0px;
+}
+
 .ui-widget-content {
 	border: none;
 	outline: var(--border);
