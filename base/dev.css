@@ -139,9 +139,9 @@ a:visited {
 	font-weight: bold;
 }
 
-a::hover,
-a:link::hover,
-a:visited::hover {
+a:hover,
+a:link:hover,
+a:visited:hover {
 	text-decoration: underline;
 }
 
