@@ -164,6 +164,7 @@ a:visited:hover {
 .ui-widget-content {
 	border: none;
 	outline: var(--border);
+	border-radius: var(--border-radius-big);
 }
 
 .ui-widget-header {
@@ -324,4 +325,5 @@ a:visited:hover {
 	background-color: var(--descbox-bg);
 	outline: var(--border);
 	border-radius: var(--border-radius-small);
+	margin: margin: 32px 10px;
 }
