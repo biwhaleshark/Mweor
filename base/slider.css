@@ -21,7 +21,7 @@
 .slider__nav {
   width: 12px;
   height: 12px;
-  margin: 0 12px;
+  margin: 12px 12px;
   border-radius: 50%;
   z-index: 10;
   outline: 6px solid #cfd3d4;
@@ -74,7 +74,10 @@
 .slider__contents {
   height: 100%;
   padding: 1rem;
+  margin: 1rem 50px;
+  background: #001a1e30;
   text-align: center;
+  border-top: 1.5px solid #001b21;
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -101,5 +104,5 @@
 .slider__txt {
   color: var(--text-dark);
   margin-bottom: 3rem;
-  max-width: 300px;
+  max-width: 100%;
 }
