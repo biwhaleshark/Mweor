@@ -167,11 +167,24 @@ a:visited:hover {
 	border-radius: var(--border-radius-big);
 }
 
+.login_reward_box {
+	outline: var(--border);
+	border: 0px solid transparent;
+	background: var(--descbox-bg);
+	border-radius: var(--border-radius-big);
+}
+
+.login_rewards .active, .login_rewards .received {
+	background: var(--color6); 
+}
+
 .ui-widget-header {
 	background: url("https://cdn.discordapp.com/attachments/933495595858022420/982490399337754624/layout_horizontal.png");
 	background-size: cover;
 	background-position: center;
 	border-radius: var(--border-radius-big) var(--border-radius-big) 0 0;
+	border: 0px solid transparent;
+	color: transparent;
 }
 
 .ui-state-default,
