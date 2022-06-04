@@ -92,6 +92,7 @@
   margin: 0 0 0.5rem;
   text-transform: lowercase;
   font-size: var(--slider-header-size);
+  font-family: var(--font-family-1);
 }
 .slider__txt {
   color: #999;
