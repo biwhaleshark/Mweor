@@ -136,6 +136,13 @@ a,
 a:link,
 a:visited {
 	color: var(--cBlack);
+	font-weight: bold;
+}
+
+a::hover,
+a:link::hover,
+a:visited::hover {
+	text-decoration: underline;
 }
 
 /* Buttons */
