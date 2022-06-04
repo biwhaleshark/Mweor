@@ -85,21 +85,13 @@
   -webkit-flex-flow: column nowrap;
   -ms-flex-flow: column nowrap;
   flex-flow: column nowrap;
-  -webkit-box-align: center;
-  -webkit-align-items: center;
-  -ms-flex-align: center;
-  align-items: center;
-  -webkit-box-pack: center;
-  -webkit-justify-content: center;
-  -ms-flex-pack: center;
-  justify-content: center;
 }
 .slider__image { font-size: 2.7rem; }
 .slider__caption {
   font-weight: 700;
-  margin: 2rem 0 1rem;
-  text-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
-  text-transform: uppercase;
+  margin: 0 0 0.5rem;
+  text-transform: lowercase;
+  font-size: var(--slider-header-size);
 }
 .slider__txt {
   color: #999;
