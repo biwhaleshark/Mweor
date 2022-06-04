@@ -325,5 +325,5 @@ a:visited:hover {
 	background-color: var(--descbox-bg);
 	outline: var(--border);
 	border-radius: var(--border-radius-small);
-	margin: margin: 32px 10px;
+	margin: 32px 10px;
 }
