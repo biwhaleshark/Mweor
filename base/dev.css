@@ -170,7 +170,7 @@ a:visited:hover {
 .ui-widget-content .ui-state-default {
 	background: var(--color6);
 	border-radius: var(--border-radius-big) var(--border-radius-big) 0 0;
-	border: 0px solid transparent;
+	border: 2px solid transparent;
 	border-bottom-width: 0px;
 }
 
@@ -205,18 +205,12 @@ a:visited:hover {
 	color: transparent;
 }
 
-.ui-state-default,
-.ui-widget-header .ui-state-default,
-.ui-widget-content .ui-state-default {
-	background: transparent;
-}
-
 .ui-tabs .ui-tabs-nav {
 	padding: 0;
 }
 
 .ui-tabs .ui-tabs-nav li.ui-tabs-active {
-	background: white;
+	background: var(--descbox-bg) !important;
 	border-radius: 14px 14px 0 0;
 }
 
