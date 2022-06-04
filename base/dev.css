@@ -192,6 +192,10 @@ a:visited::hover {
 	background: transparent;
 }
 
+.text_medium {
+	display: initial !important;
+}
+
 .button,
 .button_tall {
 	background: var(--cWhite);
