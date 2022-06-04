@@ -104,6 +104,9 @@
 }
 .slider__txt {
   color: var(--text-dark);
-  padding: 2px 0 0 !important
+  padding: 2px 0 0 !important;
   max-width: 100%;
+}
+.slider-column {
+  column-count: 2;
 }
