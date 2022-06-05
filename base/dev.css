@@ -157,6 +157,11 @@ a:visited:hover {
 	border-radius: 15px;
 }
 
+.tab_paging {
+	width: 100%;
+	margin: 0 10px 10px 0px;
+}
+
 .ui-tabs {
 	padding: 0;
 }
@@ -224,8 +229,14 @@ a:visited:hover {
 
 .button,
 .button_tall {
-	background: var(--cWhite);
-	background-color: unset !important;
+	background: #003b43 !important;
+	border-color: #003b43 !important;
+}
+.button:hover,
+.button_tall:hover {
+	color: var(--link-light);
+	background: #001417 !important;
+	border-color: #001417 !important;
 }
 
 /* Cattery Setting Box */
@@ -362,4 +373,25 @@ a:visited:hover {
 	--descbox-margin: 2rem 0 2rem 0;
 	--descbox-padding: 0;
 
+}
+
+/* messagebox */
+#mpopup {
+	background: var(--descbox-img);
+	color: transparent;
+	margin: auto;
+	left: unset;
+}
+
+#popupclose {
+	color: var(--link-light);
+}
+
+#mpopup .theader {
+  background: var(--color6);
+  color: var(--text-dark) !important;
+}
+
+#mpopup .trow2 {
+  background: var(--color6);
 }
