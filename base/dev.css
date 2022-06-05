@@ -135,7 +135,7 @@ body,
 a,
 a:link,
 a:visited {
-	color: var(--cBlack);
+	color: var(--link-dark);
 	font-weight: bold;
 }
 
@@ -143,6 +143,7 @@ a:hover,
 a:link:hover,
 a:visited:hover {
 	text-decoration: underline;
+	color: var(--link-dark) !important;
 }
 
 /* Buttons */
