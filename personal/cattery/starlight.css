@@ -1,15 +1,8 @@
 /************************************************
-	FILE:	CSS_starter
-	THEME:	NULL
-	FOR:	USERID/TOPICID
-	BY:		#559
-
-	GOLIVE DELETE: called in HTML base file.
-	main CSS file.
-	calls:
-	- reset file
-	- fontawesome file
-	- css componment files for layout
+	FILE:	Starlight.css
+	THEME:	Starlight
+	FOR:	#559
+	BY:	#559
 ************************************************/
 
 /************************************************
@@ -18,11 +11,8 @@
 
 /** Imported Styles ***********/
 @import url("https://biwhaleshark.github.io/Mweor/base/resets.css");
-/* @import url("https://biwhaleshark.github.io/Mweor/base/mweorbox_restyles.css"); */
 @import url("https://pro.fontawesome.com/releases/v5.15.4/css/all.css");
 @import url("https://biwhaleshark.github.io/Mweor/base/slider.css");
-
-/** Components ****************/
 
 /** Variables *****************/
 :root {
