@@ -380,7 +380,7 @@ a:visited:hover {
 	background: var(--descbox-img);
 	color: transparent;
 	margin: auto;
-	left: unset;
+	left: unset !important;
 }
 
 #popupclose {
@@ -395,3 +395,7 @@ a:visited:hover {
 #mpopup .trow2 {
   background: var(--color6);
 }
+
+input[type="text"],
+textarea {
+	font-family: var(--font-family-2) !important;
