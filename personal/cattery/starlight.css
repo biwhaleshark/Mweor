@@ -193,9 +193,9 @@ a:visited:hover {
 }
 
 .ui-widget-header {
-	background: url("https://cdn.discordapp.com/attachments/933495595858022420/982490399337754624/layout_horizontal.png");
-	background-size: cover;
-	background-position: center;
+	background: url("https://cdn.discordapp.com/attachments/933495595858022420/982490399337754624/layout_horizontal.png") !important;
+	background-size: cover !important;
+	background-position: center !important;
 	border-radius: var(--border-radius-big) var(--border-radius-big) 0 0;
 	border: 0px solid transparent;
 	color: transparent;
