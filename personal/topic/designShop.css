@@ -159,3 +159,17 @@ textarea {
 .sf-menu {
     left: 420px;
 }
+
+.closed, 
+.open {
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+.closed {
+    color: #B11010;
+}
+  
+.open {
+    color: #006600;
+}
