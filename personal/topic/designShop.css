@@ -46,7 +46,7 @@
 h1, h2, h3, h4, h5, h6 {
     text-align: right;
     position: relative;
-    font-style: italic;
+    font-weight: 900;
     font-family: "Poiret One", cursive;
     font-size: 15px;
     color: var(--teal);
