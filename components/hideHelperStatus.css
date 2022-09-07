@@ -1,0 +1,7 @@
+/* Hide text so just the newbie helper symbol is visible */
+.add_small_margins > .good_label:nth-child(3) {
+    display: inline-block;
+    overflow: hidden;
+    width: 10px;
+    height: 10px;
+}
