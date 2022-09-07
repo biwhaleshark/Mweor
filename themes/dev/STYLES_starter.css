@@ -28,8 +28,8 @@
 	/* core variables */
 	--core-optional: none;
 	--core-required: none;
-	--setting-text-color: --button-text;
-	--settings-bg-color: --button-bg;
+	--settings-text-color: --header-light;
+	--settings-bg-color: --body-bg-color;
 }
 
 /************************************************
