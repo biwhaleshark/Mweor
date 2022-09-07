@@ -11,9 +11,9 @@
 }
 
 .theader {
-	background-color: var(--button-bg);
+	background-color: var(--settings-bg-color);
 }
 
 .theader td {
-	color: var(--button-text);
+	color: var(--settings-text-color);
 }
