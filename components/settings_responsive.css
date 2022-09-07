@@ -1,0 +1,16 @@
+/************************************************
+	FILE:	settings_responsive.css
+	BY: 	#559
+
+	makes cattery settings box responsive 
+	on page resize & customizable
+************************************************/
+
+#contentholder form center .tborder {
+	background: var(--descbox-bg-color)
+}
+
+.theader {
+	color: var(--setting-text-color);
+	background-color: var(--settings-bg-color);
+}
