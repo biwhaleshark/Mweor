@@ -1,0 +1,12 @@
+/*
+Breaks up extremely long mweor names so they wrap instead of overflowing the element.
+Also adjusts the height of the mweorbox so nothing is cut off.
+*/
+    
+.mweorbox .text_medium.add_small_margins {
+    word-break: break-all;
+}
+
+.mweorbox.tall {
+    height: 185px;
+}
