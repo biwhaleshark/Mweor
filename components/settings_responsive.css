@@ -7,10 +7,13 @@
 ************************************************/
 
 #contentholder form center .tborder {
-	background: var(--descbox-bg-color)
+	background: var(--descbox-bg-color);
 }
 
 .theader {
-	color: var(--setting-text-color);
-	background-color: var(--settings-bg-color);
+	background-color: var(--button-bg);
+}
+
+.theader td {
+	color: var(--button-text);
 }
