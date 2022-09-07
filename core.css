@@ -1,0 +1,79 @@
+/************************************************
+	FILE:	core.css
+	BY: 	#559
+************************************************/
+
+/** Imported Stylesheets ***************/
+@import url("https://pro.fontawesome.com/releases/v5.15.4/css/all.css");
+
+:root {
+	--white:	#ffffff;
+	--black:	#000000;
+
+	--dev: 1px dotted red;
+}
+
+/* testing */
+.dev {
+	border: var(--dev);
+}
+
+* {
+	box-sizing: border-box !important;
+}
+
+/* optional hidden */
+.titlebar,
+#titletxt,
+.add_small_margins,
+#reportplayer,
+#cattery_infobox,
+#cattery_menu,
+#cattery_descbox i:last-child,
+form .add_marigns,
+.breed_count {
+	display: var(--core-optional);
+}
+
+/* required hidden */
+.ci_notice,
+#bookmark,
+#bodyi,
+#topbanner,
+#topbanneri,
+#layoutuinfo,
+#gametime,
+#addbookmark,
+.sf-menu,
+#menu_holder,
+#titleimg,
+.spacer,
+#bottombanner,
+#footer,
+.clearer {
+    display: var(--core-required);
+}
+
+/* remove borders */
+#cattery_infobox .add_small_margins,
+.ui-widget-content,
+.ui-widget-header,
+.ui-state-active,
+.ui-widget-content .ui-state-active,
+.ui-widget-header .ui-state-active,
+.mweorbox table tbody tr td div,
+.tborder,
+.ui-state-hover,
+.ui-widget-content .ui-state-hover,
+.ui-widget-header .ui-state-hover,
+.ui-state-focus,
+.ui-widget-content .ui-state-focus,
+.ui-widget-header .ui-state-focus {
+    border-color: transparent !important;
+}
+
+/* set background color */
+html,
+body {
+    background-color: var(--white);
+}
