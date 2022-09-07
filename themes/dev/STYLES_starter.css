@@ -28,8 +28,8 @@
 	/* core variables */
 	--core-optional: none;
 	--core-required: none;
-	--settings-text-color: --header-light;
-	--settings-bg-color: --body-bg-color;
+	--settings-text-color: var(--header-light);
+	--settings-bg-color: var(--body-bg-color);
 }
 
 /************************************************
