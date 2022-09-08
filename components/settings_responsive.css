@@ -8,10 +8,19 @@
 
 #contentholder form center .tborder {
 	background: var(--descbox-bg-color);
+	display: flex;
+}
+
+#contentholder form center .tborder tbody {
+	display: flex;
+	flex-direction: column;
+	width: 100%;
 }
 
 .theader {
 	background-color: var(--settings-bg-color);
+	display: flex;
+	justify-content: center;
 }
 
 .theader td {
