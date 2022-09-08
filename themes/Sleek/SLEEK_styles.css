@@ -32,6 +32,14 @@
 /************************************************
 Resets
 ************************************************/
+.add_small_margins {
+	display: block !important;
+}
+
+.tip.good_label {
+	display: flex !important;
+}
+
 html,
 body {
 	background: var(--body-bg-color);
