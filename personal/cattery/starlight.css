@@ -169,6 +169,11 @@ a:visited:hover {
 	border-bottom-width: 0px;
 }
 
+.ui-widget-header,
+#cattery_descbox {
+            background-attachment: fixed !important;
+}
+
 .ui-widget-content {
 	border: none;
 	outline: var(--border);
