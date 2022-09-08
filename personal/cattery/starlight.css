@@ -232,7 +232,7 @@ a:visited:hover {
 }
 .button:hover,
 .button_tall:hover {
-	color: var(--link-light);
+	color: var(--link-light) !important;
 	background: #001417 !important;
 	border-color: #001417 !important;
 }
