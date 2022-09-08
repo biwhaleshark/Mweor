@@ -33,6 +33,10 @@
 	flex-wrap: wrap;
 }
 
+.trow1 td {
+	color: var(--text-dark);
+}
+
 .trow1 td:nth-child(even) {
 	width: 80%;
 	text-align: left;
