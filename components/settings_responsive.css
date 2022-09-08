@@ -18,7 +18,7 @@
 }
 
 .theader {
-	background-color: var(--settings-bg-color);
+	background-color: var(--settings-bg-color) !important;
 	display: flex;
 	justify-content: center;
 }
