@@ -124,15 +124,17 @@ a:visited {
 .button,
 .button_tall {
 	color: var(--button-text);
-	background: va(--button-bg);
-	background-color: unset !important;
+	background: unset !important;
+	background-color: var(--button-bg) !important;
+	border-color: var(--button-bg);
 }
 
 .button:hover,
 .button_tall:hover {
 	color: var(--button-text-hover);
-	background: va(--button-bg-hover);
-	background-color: unset !important;
+	background: unset !important;
+	background-color: var(--button-bg-hover);
+	border-color: var(--button-bg-hover);
 }
 
 /* Cattery Setting Box */
