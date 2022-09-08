@@ -15,15 +15,18 @@
 
 /** Variables *****************/
 :root {
-	--white: #ffffff;
-	--black: #000000;
-	
 	--holder-width: 90%;
 	--descbox-width: 100%;
 	
 	--holder-margin: 3rem 0;
 	--descbox-margin: 1rem 0;
-	--descbox-padding: 1rem;	
+	--descbox-padding: 1rem;
+	
+	/* core variables */
+	--core-optional: none;
+	--core-required: none;
+	--settings-text-color: var(--header-light);
+	--settings-bg-color: var(--body-bg-color);
 }
 
 /************************************************
