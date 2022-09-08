@@ -133,7 +133,7 @@ a:visited {
 .button_tall:hover {
 	color: var(--button-text-hover);
 	background: unset !important;
-	background-color: var(--button-bg-hover);
+	background-color: var(--button-bg-hover) !important;
 	border-color: var(--button-bg-hover);
 }
 
