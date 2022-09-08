@@ -34,9 +34,17 @@
 }
 
 .trow1 td:nth-child(even) {
-	width: 70%;
+	width: 80%;
+	text-align: left;
 }
 
 .trow1 td:nth-child(odd) {
-	width: 30%;
+	width: 20%;
+	text-align: left;
+}
+
+input[type="text"],
+textarea {
+	width: 95%;
+	float: left;
 }
