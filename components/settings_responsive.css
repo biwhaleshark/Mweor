@@ -27,17 +27,16 @@
 	color: var(--settings-text-color);
 }
 
-.theader .trow1 {
+.trow1 {
 	display: flex;
 	justify-content: left;
 	flex-wrap: wrap;
 }
 
-
-.theader .trow1 td:nth-child(even) {
+.trow1 td:nth-child(even) {
 	width: 70%;
 }
 
-.theader .trow1 td:nth-child(odd) {
+.trow1 td:nth-child(odd) {
 	width: 30%;
 }
