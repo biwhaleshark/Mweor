@@ -36,6 +36,10 @@ Resets
 	display: block !important;
 }
 
+.add_small_margins .compose {
+	display: none !important;
+}
+
 .tip.good_label {
 	display: flex !important;
 }
