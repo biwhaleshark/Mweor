@@ -33,7 +33,7 @@ body {
 }
 
 .holder {
-  position: relative;
+  position: relative !important;
 }
 
 .tborder .trow3 br {
