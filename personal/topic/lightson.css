@@ -2,25 +2,25 @@
 
 .fa-sparkles::before {
   color: purple;
-  font-size: 18px;
+  font-size: 16px;
 }
 
 .fa-candy-corn::before {
   color: darkorange;
-  font-size: 18px;
+  font-size: 16px;
 }
 
 .fa-envelope::before {
   color: blue;
-  font-size: 18px;
+  font-size: 16px;
 }
 
 .fa-wand::before {
   color: brown;
-  font-size: 18px;
+  font-size: 16px;
 }
 
 .fa-cauldron::before {
   color: green;
-  font-size: 18px;
+  font-size: 16px;
 }
