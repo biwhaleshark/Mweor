@@ -1,0 +1,26 @@
+@import url("https://pro.fontawesome.com/releases/v5.15.4/css/all.css");
+
+.fa-sparkles::before {
+  color: purple;
+  font-size: 18px;
+}
+
+.fa-candy-corn::before {
+  color: darkorange;
+  font-size: 18px;
+}
+
+.fa-envelope::before {
+  color: blue;
+  font-size: 18px;
+}
+
+.fa-wand::before {
+  color: brown;
+  font-size: 18px;
+}
+
+.fa-cauldron::before {
+  color: green;
+  font-size: 18px;
+}
