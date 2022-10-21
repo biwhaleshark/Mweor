@@ -1,5 +1,9 @@
 @import url("https://pro.fontawesome.com/releases/v5.15.4/css/all.css");
 
+.wrap {
+  columns: 3;
+}
+
 .fa-sparkles::before {
   color: purple;
   font-size: 16px;
