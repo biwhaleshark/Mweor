@@ -1,26 +1,47 @@
 /************************************************
-	FILE:	core.css
-	BY: 	#559
+	FILE	:	core.css
+	AUTHOR	:	#559
+
+	DESC	:
+	core stylesheet including debug testing
+	and base styles for all themes and layouts.
+	imports global styles.
+
+	this file called in base CSS file for
+	theme/layout.
 ************************************************/
 
 /** Imported Stylesheets ***************/
 @import url("https://pro.fontawesome.com/releases/v5.15.4/css/all.css");
 @import url("https://biwhaleshark.github.io/Mweor/components/settings_responsive.css");
 
-:root {
-	--white:	#ffffff;
-	--black:	#000000;
+html {
+	--testing: 2px dashed red;
+	font-size: var(--base-font-size);
+	box-sizing: border-box;
+}
 
-	--dev: 1px dotted red;
+*,
+::before,
+::after {
+	box-sizing: inherit;
+}
+
+body {
+	overflow-x: hidden;
+	margin: 0;
+	padding: 0;
+	color: black;
+	font-size: 1rem;
+	line-height: 1.2;
+	font-weight: 300;
+	font-family: var(--text-font);
+	text-rendering: optimizeLegibility;
 }
 
 /* testing */
-.dev {
-	border: var(--dev);
-}
-
-* {
-	box-sizing: border-box !important;
+.test {
+	border: var(--testing);
 }
 
 /* optional hidden */
@@ -33,7 +54,7 @@
 #cattery_descbox i:last-child,
 form .add_marigns,
 .breed_count {
-	display: var(--core-optional);
+	display: var(--core-optional-hidden);
 }
 
 /* required hidden */
@@ -52,7 +73,7 @@ form .add_marigns,
 #bottombanner,
 #footer,
 .clearer {
-    display: var(--core-required);
+    display: var(--core-required-hidden);
 }
 
 /* remove borders */
@@ -76,5 +97,5 @@ form .add_marigns,
 /* set background color */
 html,
 body {
-    background-color: var(--white);
+    background-color: white;
 }
