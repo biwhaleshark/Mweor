@@ -50,8 +50,11 @@ body {
 /* images */
 #bodyi,
 #topbanneri,
-#titleimg {
+#titleimg,
+.trans,
+#content {
 	display: var(--image-display);
+	background-image: var(--bg-image-display);
 }
 
 /* remove borders */
