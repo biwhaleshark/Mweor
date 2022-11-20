@@ -54,38 +54,6 @@ body {
 	display: var(--image-display);
 }
 
-/* optional hidden */
-.titlebar,
-#titletxt,
-.add_small_margins,
-#reportplayer,
-#cattery_infobox,
-#cattery_menu,
-#cattery_descbox i:last-child,
-form .add_marigns,
-.breed_count {
-	display: var(--core-optional-hidden);
-}
-
-/* required hidden */
-.ci_notice,
-#bookmark,
-#bodyi,
-#topbanner,
-#topbanneri,
-#layoutuinfo,
-#gametime,
-#addbookmark,
-.sf-menu,
-#menu_holder,
-#titleimg,
-.spacer,
-#bottombanner,
-#footer,
-.clearer {
-    display: var(--core-required-hidden);
-}
-
 /* remove borders */
 #cattery_infobox .add_small_margins,
 .ui-widget-content,
