@@ -51,9 +51,11 @@ body {
 #bodyi,
 #topbanneri,
 #titleimg,
-.trans,
-#content {
+.trans {
 	display: var(--image-display);
+}
+
+#content {
 	background-image: var(--bg-image-display);
 }
 
