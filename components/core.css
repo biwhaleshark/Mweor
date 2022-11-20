@@ -55,12 +55,14 @@ body {
 	display: var(--image-display);
 }
 
-#content {
+#content,
+.sf-menu ul {
 	background-image: var(--bg-image-display);
 }
 
 /* remove borders */
 #cattery_infobox .add_small_margins,
+#cattery_menu li,
 .ui-widget-content,
 .ui-widget-header,
 .ui-state-active,
