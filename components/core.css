@@ -56,8 +56,13 @@ body {
 }
 
 #content,
-.sf-menu ul {
+.sf-menu ul,
+.ui-widget-header {
 	background-image: var(--bg-image-display);
+}
+
+.highlight_me, .highlight_me td {
+	background: transparent !important;
 }
 
 /* remove borders */
