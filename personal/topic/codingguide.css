@@ -61,12 +61,12 @@ html {
 }
 
 .code {
-	margin: 10px 40px 10px 70px;
+	margin: 10px 40px 10px 60px;
 	color: #fff;
 	background: black;
 	padding: 10px;
 	border-radius: 10px;
-	font-size: 14px;
+	font-size: 11px;
 	line-height: 18px;
 }
 
