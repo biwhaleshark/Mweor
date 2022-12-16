@@ -42,7 +42,7 @@ html {
 }
 
 .paragraph {
-	margin: 0 40px 0 40px;
+	margin: 16px 40px 16px 40px;
 }
 
 .bold {
@@ -55,5 +55,5 @@ html {
 }
 
 .code {
-  margin: 0 40px 0 60px
+  margin: 0 40px 0 80px
 }
