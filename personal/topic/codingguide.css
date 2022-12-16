@@ -62,12 +62,16 @@ html {
 
 .code {
 	margin: 10px 40px 10px 70px;
-	color: #00E63A;
+	color: #fff;
 	background: black;
 	padding: 10px;
 	border-radius: 10px;
 	font-size: 14px;
 	line-height: 18px;
+}
+
+.code span {
+	color: #00E63A;
 }
 
 .tborder .trow3 .code br {
