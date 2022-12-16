@@ -12,10 +12,6 @@ html {
     scroll-behavior: smooth !important;
 }
 
-.tborder .trow3 br {
-  display: none;
-}
-
 .title {
     font-family: var(--font-family-1);
     color: var(--fontColor);
@@ -29,20 +25,14 @@ html {
     position: relative;
 }
 
-.prime-title {
-    --font: 40px;
-    font-size: var(--font);
-    line-height: var(--font);
-}
-
-.section-title {
-    --font: 22px;
-    font-size: var(--font);
-    line-height: var(--font);
+.sec-title {
+  font-size: 20px;
 }
 
 .paragraph {
 	margin: 16px 40px 16px 40px;
+	font-size: 16px;
+	line-height: 18px;
 }
 
 .bold {
@@ -55,5 +45,11 @@ html {
 }
 
 .code {
-  margin: 0 40px 0 80px
+	margin: 10px 40px 10px 70px;
+	color: #00E63A;
+	background: black;
+	padding: 10px;
+	border-radius: 10px;
+	font-size: 16px;
+	line-height: 20px;
 }
