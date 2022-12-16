@@ -43,6 +43,7 @@ html {
     --font: 22px;
     font-size: var(--font);
     line-height: var(--font);
+}
 
 .paragraph {
 	margin: 16px 40px 16px 40px;
