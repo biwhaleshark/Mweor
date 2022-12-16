@@ -69,3 +69,11 @@ html {
 	font-size: 16px;
 	line-height: 20px;
 }
+
+.tborder .trow3 .code br {
+  display: initial !important;
+}
+
+.tborder .trow3 .code br:first-of-type {
+  display: none !important;
+}
