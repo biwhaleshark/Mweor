@@ -12,6 +12,10 @@ html {
     scroll-behavior: smooth !important;
 }
 
+.tborder .trow3 br {
+  display: none;
+}
+
 .title {
     font-family: var(--font-family-1);
     color: var(--fontColor);
@@ -28,6 +32,17 @@ html {
 .sec-title {
   font-size: 20px;
 }
+
+.prime-title {
+    --font: 40px;
+    font-size: var(--font);
+    line-height: var(--font);
+}
+
+.section-title {
+    --font: 22px;
+    font-size: var(--font);
+    line-height: var(--font);
 
 .paragraph {
 	margin: 16px 40px 16px 40px;
