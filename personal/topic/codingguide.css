@@ -1,0 +1,95 @@
+
+Skip to content
+Pull requests
+Issues
+Codespaces
+Marketplace
+Explore
+@biwhaleshark
+biwhaleshark /
+Mweor
+Public
+
+Code
+Pull requests
+Actions
+Security
+Insights
+
+    Settings
+
+Mweor/personal/topic/guidetoguides.css
+@biwhaleshark
+biwhaleshark Update guidetoguides.css
+Latest commit 1c15195 Jul 18, 2022
+History
+1 contributor
+98 lines (81 sloc) 1.53 KB
+/************************************************
+	guide to guides stylesheet by #559
+	for use on viewtopic.php?id=773364 only
+*************************************************
+*************************************************
+    Settings
+************************************************/
+/** Font Imports **************/
+
+/** Variables *****************/
+:root {
+    --white: #ffffff;
+    --black: #000000;
+
+    --fontColor: var(--black);
+    --font-family-1: Georgia, serif;
+    --font-family-2: null;
+}
+
+html {
+    scroll-behavior: smooth !important;
+}
+
+.tborder .trow3 br {
+  display: none;
+}
+
+.title {
+    font-family: var(--font-family-1);
+    color: var(--fontColor);
+    font-weight: bold;
+    margin: 0 40px;
+}
+
+.prime-title,
+.sec-title {
+    text-align: right;
+    position: relative;
+}
+
+.prime-title {
+    --font: 40px;
+    font-size: var(--font);
+    line-height: var(--font);
+}
+
+.section-title {
+    --font: 22px;
+    font-size: var(--font);
+    line-height: var(--font);
+}
+
+.paragraph {
+	margin: 0 40px 0 40px;
+}
+
+.bold {
+	font-weight: bold;
+}
+
+.center {
+	text-align: center;
+	margin: 20px 0;
+}
+
+.code {
+  margin: 0 40px 0 60px
+}
