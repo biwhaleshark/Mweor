@@ -1,0 +1,10 @@
+/* Self-hosted web fonts uploaded by #559 on Mweor.
+  Ninifont was created by Inkytype/Nini Prower
+  and was downloaed for free here:
+  https://www.dafont.com/ninifont.font
+*/
+
+@font-face {
+  font-family: 'Nini Font';
+  src: url(/ninifont/ninifont-caps-webfont.woff) format('woff');
+}
