@@ -4,6 +4,10 @@
   https://www.dafont.com/ninifont.font
 */
 
+:root {
+  --fonts-is-working: orange;
+}
+
 @font-face {
   font-family: 'Nini Font';
   src: url(/ninifont/ninifont-caps-webfont.woff) format('woff');
