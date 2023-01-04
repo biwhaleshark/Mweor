@@ -61,6 +61,11 @@ body {
 	background-image: var(--bg-image-display);
 }
 
+#topbanner,
+footer {
+	display: var(--default-content);
+}
+
 .highlight_me, .highlight_me td {
 	background: transparent !important;
 }
