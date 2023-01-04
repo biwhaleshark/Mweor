@@ -62,7 +62,8 @@ body {
 }
 
 #topbanner,
-#sf-menu, 
+#sf-menu,
+#menu_holder,
 #footer {
 	display: var(--default-content);
 }
