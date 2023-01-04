@@ -20,6 +20,8 @@
 
 /** Variables *****************/
 :root {
+	--white: white;
+	--black: black;
 	--dkteal: #003b43;
 	--ltteal: #cfd3d4;
 
