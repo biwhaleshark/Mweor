@@ -1,0 +1,163 @@
+/************************************************
+	FILE	:	CSS_starter.css
+	THEME	:	STARTER
+	AUTHOR	:	#559
+	FOR		:	USERID/TOPICID
+
+	DESC	:
+	main CSS file associated with theme/layout.
+	contains all CSS required for theme/layout,
+	including calls to component stylesheets.
+
+	this file called in the base HTML file
+	for theme/layout.
+
+	GOLIVE DELETE: called in HTML base file.
+	main CSS file.
+	calls:
+	- core file
+	- css componment files for layout
+************************************************/
+
+/************************************************
+	Imported Styles
+************************************************/
+/* Core */ 
+@import url("https://biwhaleshark.github.io/Mweor/components/core.css");
+
+/* Fonts */
+
+/* Blocks */
+
+/************************************************
+	Variables
+************************************************/
+:root {
+	--holder-width: 90%;
+	--descbox-width: 100%;
+	
+	--holder-margin: 3rem 0;
+	--descbox-margin: 1rem 0;
+	--descbox-padding: 1rem;
+	
+	/* core variables */
+	--setting-text-color: --button-text;
+	--base-font-size: 16px;
+	--settings-bg-color: --button-bg;
+
+	--image-display: none;
+	--bg-image-display: none;
+	--default-content: none;
+}
+
+/************************************************
+	Resets
+************************************************/
+
+body {
+	background-color: var(--body-bg-color) !important;
+	background: var(--bg-image);
+	background-repeat: var(--bg-repeat);
+	background-size: var(--bg-size);
+}
+
+#holder {
+	background: transparent;
+	position: relative;
+	width: 100%;
+}
+
+body,
+#holder {
+	margin: 0;
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+}
+
+#content {
+	background: var(--contentholder-bg-color);
+	padding: 0;
+	margin: var(--holder-margin);
+	width: var(--holder-width);
+	left: 0;
+}
+
+#contentholder {
+	width: 100%;
+	margin: 0;
+	left: 0;
+}
+
+#cattery_descbox {
+	width: var(--descbox-width);
+	float: none;
+	right: unset;
+	padding: var(--descbox-padding);
+	margin: var(--descbox-margin);
+	background: var(--descbox-bg-color);
+}
+
+#cattery_infobox {
+	background: transparent;
+	padding: 0;
+	float: none;
+	left: 0;
+}
+
+.titlebar {
+	width: 100%;
+	margin: 0;
+}
+
+#titletxt {
+	width: 100%;
+	height: auto;
+	top: 0;
+	left: 0;
+}
+
+.add_small_margins {
+	margin: 0;
+}
+
+/* Link Defaults */
+a,
+a:link,
+a:visited {
+	color: var(--link-dark-hover);
+}
+
+/* Mweor Tabs */
+.ui-widget-header {
+	background: transparent;
+}
+
+.ui-state-default,
+.ui-widget-header .ui-state-default,
+.ui-widget-content .ui-state-default {
+	background: transparent;
+}
+
+.button,
+.button_tall {
+	color: var(--button-text);
+	background: va(--button-bg);
+	background-color: unset !important;
+}
+
+.button:hover,
+.button_tall:hover {
+	color: var(--button-text-hover);
+	background: va(--button-bg-hover);
+	background-color: unset !important;
+}
+
+/* Cattery Setting Box */
+#contentholder form center .tborder {
+	width: 100% !important;
+}
+
+/************************************************
+	Styles
+************************************************/
