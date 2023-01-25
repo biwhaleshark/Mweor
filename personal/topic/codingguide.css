@@ -81,3 +81,16 @@ html {
 .tborder .trow3 .code br:first-of-type {
   display: none !important;
 }
+
+#index {
+    background: white
+    height: auto; 
+    width: 200px; 
+    left: 870px; 
+    top: 130px; 
+    position: fixed; 
+    padding: 15px; 
+    border: 3.5px solid black; 
+    border-radius: 10px; 
+    font-size: 14px;
+}
