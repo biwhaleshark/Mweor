@@ -88,8 +88,8 @@ li {
     background: var(--white); 
     height: auto; 
     width: 200px; 
-    left: 870px; 
-    top: 130px; 
+    left: 800px; 
+    top: 20px; 
     position: fixed; 
     padding: 15px; 
     border: 3.5px solid var(--black); 
