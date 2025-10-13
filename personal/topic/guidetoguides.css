@@ -22,7 +22,7 @@ html {
     scroll-behavior: smooth !important;
 }
 
-.tborder .trow3 br {
+#contentholder center > .tborder:nth-of-type(2) .trow3 br {
   display: none;
 }
 
