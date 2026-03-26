@@ -85,7 +85,8 @@ button_tall:hover {
 #titletxt::before,
 #linkHolder #links #title::before,
 #linkHolder #notes #title::before {
-	content: '\\' var(--emoji);
+	--emoji-concenated: '\\' var(--emoji);
+	content: var(--emoji-concenated);
 	padding-right: 5px;
 }
 
